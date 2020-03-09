@@ -1,14 +1,13 @@
 # fastlangid
 
-Language identification including traditional and simplified chinese. 
+Language identification that includes traditional and simplified Chinese.
 
 
 ## Why and who is this package for?
 
-This is a langugage identification language focus in providing higher accuracy in Japanese, Korean, and Chinese language compare to the original fasttext model ( lid.176.ftz ). This package also include identification for simplified and traditional chinese language.
+This is a language identification language focus on providing higher accuracy in Japanese, Korean, and Chinese language compares to the original Fasttext model ( lid.176.ftz ). This package also include identification for simplified and traditional Chinese language.
 
-We are able to achieve higher accuracy by including an additional language identification model to handle low confidence score for Japanese, Korean, Chinese. The table below shows F1 (k=1) scores in identifying 3 languages.
-
+We can achieve higher accuracy by including an additional language identification model to handle low confidence scores for Japanese, Korean, Chinese. The table below shows F1 (k=1) scores in identifying 3 languages.
 
 | Model  | F1@1  |
 |---|---|
@@ -20,8 +19,7 @@ For more edge case detail please refer to [fasttext_issues.py](tests/fasttext_is
 
 The training data for the supplement model was drawn from Common Crawl Corpus and [Currents API](https://currentsapi.services/en) internal language dataset.
 
-We wish to support cantonese language in the upcoming future. Feel free to contact us if you would like to provide related corpus.
-
+We wish to support Cantonese language in the upcoming future. Feel free to contact us if you would like to provide any related corpus.
 
 
 ## Install
