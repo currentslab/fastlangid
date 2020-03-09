@@ -41,7 +41,7 @@ setup(
     install_requires=['fasttext'],
     license='Apache License 2.0',
     classifiers=[
-        'Development Status :: 1 - Production/Stable',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
