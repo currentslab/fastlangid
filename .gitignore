@@ -1,0 +1,24 @@
+ Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+.idea/
+README
+# C extensions
+*.so
+.vscode
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
