@@ -9,7 +9,7 @@ This is a langugage identification language focus in providing higher accuracy i
 
 We are able to achieve higher accuracy by including an additional language identification model to handle low confidence score for Japanese, Korean, Chinese.
 
-The training data for the supplement model was drawn from Common Crawl Corpus and Currents API internal language dataset.
+The training data for the supplement model was drawn from Common Crawl Corpus and [Currents API](https://currentsapi.services/en) internal language dataset.
 
 We wish to support cantonese language in the upcoming future. Feel free to contact us if you would like to provide related corpus.
 
@@ -25,7 +25,7 @@ $ pip install fastlangid
 
 ## Supported Languages
 
-Supports 177 languages . The ISO codes for the corresponding languages are as below.
+Supports 177 languages. The ISO codes for the corresponding languages are as below.
 
 ```
 af als am an ar arz as ast av az azb ba bar bcl be bg bh bn bo bpy br bs bxr ca cbk
