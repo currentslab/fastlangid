@@ -1,5 +1,8 @@
 # fastlangid
 
+[![codecov](https://codecov.io/gh/currentsapi/fastlangid/branch/master/graph/badge.svg)](https://codecov.io/gh/currentsapi/fastlangid)  [![PyPI version](https://badge.fury.io/py/fastlangid.svg)](https://badge.fury.io/py/fastlangid)
+
+
 Language identification that includes traditional and simplified Chinese.
 
 
