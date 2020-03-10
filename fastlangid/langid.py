@@ -1,22 +1,22 @@
 from __future__ import division, unicode_literals
 
 import re
-import os, sys
+import os, sys, contextlib
 import collections
 from fasttext import load_model
+import fasttext
 
 if sys.version_info[0] >= 3:
     unicode = str
 
 
-symbol_removal = re.compile(r"[.\!?,'/()。，；:\–‘\-\[\]【】|~、…「」“”《》=——+～！@#$%⋯⋯&*（）\n\t]")
+symbol_removal = re.compile(r"[.\!?,'/()。，，；:\–‘\-\[\]【】|~、…「」“”《》=——+～！@#$%⋯⋯&*（）\n\t]")
 RAW_CONTENT_CLEANER = re.compile(r"#video_container #my-video{width:100%;padding-bottom:56.25%; height:56.25%;}|\[embedded content\]|Newsfrom Japan")
 WHITE_SPACE_CLEANER = [
 	(re.compile(r"\s\s+"), " "),
 	(re.compile(r"\n+"), "\n\n"),
-	(re.compile(r"\t+"), "\t\t"),	
+	(re.compile(r"\t+"), "\t\t"),
 ]
-
 HTML_CLEANER = re.compile(r'<.*?>')
 
 def input_preprocess(text):
@@ -44,15 +44,17 @@ class LID():
             self.model_file = custom_model
             if not os.path.exists(custom_model):
                 raise OSError('Custom model path not found at '+ str(custom_model))
-        
+
         self.sup_model_file = SUPPLEMENT_MODLE_FILE
         if sup_custom_model is not None:
             self.sup_model_file = sup_custom_model
             if not os.path.exists(sup_custom_model):
                 raise OSError('Custom supplement model path not found at ' + str(sup_custom_model))
+        fasttext.FastText.eprint = print
 
-        self.sup_model = load_model(self.sup_model_file)
-        self.model = load_model(self.model_file)
+        with open(os.devnull, "w") as f, contextlib.redirect_stdout(f):
+            self.sup_model = load_model(self.sup_model_file)
+            self.model = load_model(self.model_file)
 
 
     def _predict_text(self, text, supplement_threshold=0.9, k=1, prob=False):

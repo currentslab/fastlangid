@@ -9,9 +9,9 @@ This is a language identification language focus on providing higher accuracy in
 
 We can achieve higher accuracy by including an additional language identification model to handle low confidence scores for Japanese, Korean, Chinese. The table below shows F1 (k=1) scores in identifying 3 languages.
 
-| Model  | F1@1  |
-|---|---|
-| lid.176.ftz  | 0.977  |
+|         Model         |  F1@1  |
+|-----------------------|--------|
+| lid.176.ftz           | 0.977  |
 | model_s_f1_0.983.ftz  | 0.986  |
 
 For more edge case detail please refer to [fasttext_issues.py](tests/fasttext_issues.py)
@@ -28,6 +28,34 @@ We wish to support Cantonese language in the upcoming future. Feel free to conta
 ```bash
 $ pip install fastlangid
 ```
+
+## Example
+
+Only one function call away to handle single or multiple sentences
+
+```
+from fastlangid.langid import LID
+langid = LID()
+result = langid.predict('This is a test')
+print(result)
+```
+
+
+```
+from fastlangid.langid import LID
+langid = LID()
+examples = [
+  '中文繁體',
+  '中文简体',
+  'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+  'Lorem Ipsum adalah text contoh digunakan didalam industri pencetakan dan typesetting',
+  'Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression'
+]
+results = langid.predict(examples)
+print(results)
+```
+
+
 
 ## Supported Languages
 
