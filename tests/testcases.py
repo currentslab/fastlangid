@@ -46,6 +46,9 @@ class FastLangIdTest(unittest.TestCase):
         lang_code = self.langid.predict('沈鸣人:OPO Fid Z2系列缎黑等配色会逐渐补货,开售当日会加货')
         self.assertEqual(lang_code, 'zh-hans' )
 
+        lang_code = self.langid.predict('平嘢有冇好嘢?', force_second=True)
+        self.assertEqual(lang_code, 'zh-yue' )
+
         lang_code = self.langid.predict('iPhone 7成功刷入Android 10 蘋果控告技術擁有公司')
         self.assertEqual(lang_code, 'zh-hant' )
 

@@ -10,12 +10,21 @@ Language identification that includes traditional and simplified Chinese.
 
 This is a language identification language focus on providing higher accuracy in Japanese, Korean, and Chinese language compares to the original Fasttext model ( lid.176.ftz ). This package also include identification for simplified and traditional Chinese language.
 
-We can achieve higher accuracy by including an additional language identification model to handle low confidence scores for Japanese, Korean, Chinese. The table below shows F1 (k=1) scores in identifying 3 languages.
 
 |         Model         |  F1@1  |
 |-----------------------|--------|
 | lid.176.ftz           | 0.977  |
-| model_s_f1_0.983.ftz  | 0.986  |
+
+We can achieve higher accuracy by including an additional language identification model to handle low confidence scores for Japanese, Korean, Chinese. The table below shows F1 (k=1) scores in identifying 3 languages. (we updated the validation corpus which is much harder to the first revision : shorter text, latest news text )
+
+
+|   2nd-Stage Model     |  F1@1  |  Acc@1  |
+|-----------------------|--------|--------|
+| version 1.0.0         | 0.826  | 0.744  |
+| master                | 0.801  | 0.894  |
+
+Master version is also trained with identifying Cantonese (zh-yue) text from Mozilla Common Voice corpus text. Currently the model is senstive to non cantonese text mixing inside the sentence, hence please use the model with care.
+
 
 For more edge case detail please refer to [fasttext_issues.py](tests/fasttext_issues.py)
 

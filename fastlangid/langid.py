@@ -35,7 +35,7 @@ def clean_text(text):
 
 
 MODEL_FILE = os.path.join(os.path.dirname(__file__), 'models', 'lid.176.ftz')
-SUPPLEMENT_MODLE_FILE = os.path.join(os.path.dirname(__file__), 'models', 'model_s_f1_0.983.ftz')
+SUPPLEMENT_MODLE_FILE = os.path.join(os.path.dirname(__file__), 'models', 'model_s.ftz')
 
 class LID():
     def __init__(self, custom_model=None, sup_custom_model=None):
@@ -57,32 +57,29 @@ class LID():
             self.model = load_model(self.model_file)
 
 
-    def _predict_text(self, text, supplement_threshold=0.9, k=1, prob=False):
+    def _predict_text(self, text, supplement_threshold=0.93, k=1, prob=False, force_second=False):
         k = min(1, k)
         labels, probs = self.model.predict(text, k=k)
         lang_ids = list(map(lambda x: x.replace("__label__", ""), labels))
-
-        # print('output', probs, labels, text)
-
-        if (lang_ids[0] in ['ko', 'zh', 'ja'] and probs[0] < supplement_threshold):
+    
+        if lang_ids[0] in ['ko', 'zh', 'ja'] and ((probs[0] < supplement_threshold) or force_second):
             labels_, probs_ = self.sup_model.predict(text, k=k)
             lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
             results = list(zip(lang_ids, probs_))
-            # print(results)
             if prob:
                 return list(zip(lang_ids, probs_))
             return lang_ids[0]
-        elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold):
+        elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold) or force_second:
             labels_, probs_ = self.sup_model.predict(text, k=4)
             lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
 
             results = [ (lang_id, probs_[idx]  ) for idx, lang_id in enumerate(lang_ids) if lang_id in ['zh-hant', 'zh-hans'] ]
             results.sort(key=lambda x: x[1], reverse=True)
-            # print(results)
-            if prob:
+            if prob: # validate prob is not None
                 return results
             return results[0][0]
 
+        # return list of predictions
         if prob:
             return list(zip(lang_ids, probs_))
         return lang_ids[0]
@@ -92,12 +89,12 @@ class LID():
             text = clean_text(text)
         return input_preprocess(text)
 
-    def predict(self, text, full_clean=False,supplement_threshold=0.9, k=1, prob=False ):
+    def predict(self, text, full_clean=False,supplement_threshold=0.9, k=1, prob=False, force_second=False ):
         if isinstance(text, unicode):
             text = self.clean_up(text, full_clean=full_clean)
             if len(text) == 0:
                 raise ValueError("input text is not sufficient")
-            return self._predict_text(text,supplement_threshold=supplement_threshold, k=k, prob=prob)
+            return self._predict_text(text,supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
         else:
             batch = [ self.clean_up(i, full_clean=full_clean) for i in text ]
-            return [ self._predict_text(b, supplement_threshold=supplement_threshold, k=k, prob=prob) for b in batch ]
+            return [ self._predict_text(b, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second) for b in batch ]
