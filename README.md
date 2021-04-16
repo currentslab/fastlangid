@@ -25,7 +25,7 @@ We can achieve higher accuracy by including an additional language identificatio
 
 Master version is also trained with identifying Cantonese (zh-yue) text from Mozilla Common Voice corpus text. Currently the model is senstive to non cantonese text mixing inside the sentence, hence please use the model with care.
 
-To use Cantonese prediction, it recommended to force feeding text to the second stage prediction
+To use Cantonese prediction, it recommended to force inference using the second stage prediction
 
 ```
 lang_code = langid.predict('平嘢有冇好嘢?', force_second=True)
