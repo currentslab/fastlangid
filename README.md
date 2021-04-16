@@ -3,13 +3,14 @@
 [![codecov](https://codecov.io/gh/currentsapi/fastlangid/branch/master/graph/badge.svg)](https://codecov.io/gh/currentsapi/fastlangid)  [![PyPI version](https://badge.fury.io/py/fastlangid.svg)](https://badge.fury.io/py/fastlangid)
 
 
-Language identification that includes traditional and simplified Chinese.
+The only language identification that includes Cantonese (廣東話), traditional and simplified Chinese.
 
 
 ## Why and who is this package for?
 
-This is a language identification language focus on providing higher accuracy in Japanese, Korean, and Chinese language compares to the original Fasttext model ( lid.176.ftz ). This package also include identification for simplified and traditional Chinese language.
+This is a language identification language focus on providing higher accuracy in Japanese, Korean, and Chinese language compares to the original Fasttext model ( lid.176.ftz ). This package also include identification for cantonese, simplified and traditional Chinese language.
 
+First stage model F1, which is same from fasttext language identification model
 
 |         Model         |  F1@1  |
 |-----------------------|--------|
