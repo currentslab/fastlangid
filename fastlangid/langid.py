@@ -6,6 +6,8 @@ import collections
 from fasttext import load_model
 import fasttext
 
+
+fasttext.FastText.eprint = lambda x: None
 if sys.version_info[0] >= 3:
     unicode = str
 
