@@ -83,7 +83,7 @@ class LID():
 
         # return list of predictions
         if prob:
-            return list(zip(lang_ids, probs_))
+            return list(zip(lang_ids, probs))
         return lang_ids[0]
 
     def clean_up(self, text, full_clean=False):
