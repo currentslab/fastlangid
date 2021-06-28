@@ -28,6 +28,31 @@ class FastLangIdTest(unittest.TestCase):
         lang_code = self.langid.predict('이것은 한국인입니다')
         self.assertEqual(lang_code, 'ko' )
 
+    def test_list_probs(self):
+        lang_codes = self.langid.predict('這是繁體字', prob=True, k=5)
+        self.assertTrue(isinstance(lang_codes,  list))
+        self.assertEqual(lang_codes[0][0], 'zh-hant' )
+
+        lang_codes = self.langid.predict('the brown fox jumps over the lazy dog', prob=True, k=5)
+        self.assertTrue(isinstance(lang_codes,  list))
+        self.assertEqual(lang_codes[0][0], 'en' )
+
+    def test_for_equality(self):
+
+        for name in ['小美', '小明', '老王','阿公', '陳美珍']:
+            lang_code = self.langid.predict('{}決定要去購買新的項鍊'.format(name))
+            self.assertEqual(lang_code, 'zh-hant' )
+
+        for name in ['小美', '小明', '老王','阿公', '陈美珍']:
+            lang_code = self.langid.predict('{}决定要去购买新的项链'.format(name))
+            self.assertEqual(lang_code, 'zh-hans' )
+
+
+        for name in ['Peter', 'Dmitri', 'Jonas','Rahul', 'Mohamed', 'Ali']:
+            lang_code = self.langid.predict('{} is going to London this week'.format(name))
+            self.assertEqual(lang_code, 'en' )
+
+
     def test_edge_cases(self):
         # brand in test case sentences are fictional and created only for testing purposes
 
@@ -57,12 +82,13 @@ class FastLangIdTest(unittest.TestCase):
         lang_codes = self.langid.predict(['iPhone 7成功刷入Android 10 蘋果控告技術擁有公司', 
             'РФ и еще 26 стран назовут своих представителей на "Евровидении" до 9 марта',
             'BroadcomAktie Aktuell  Broadcom notiert mit 3 Prozent deutliche Verluste', 
+            'the brown fox jumps over the lazy dog',
             'Pokémon Spada e Scudo: rivelato il nuovo Pokémon misterioso Zarude',
             'Vidéo : Amazon ouvre un supermarché alimentaire sans caisse',
             '英国:6月でEUとの交渉終了も辞さない構え、離脱後の通商協定巡り - Bloomberg',
             'Braga garante internacional português',
             ])
-        self.assertEqual(lang_codes,  ['zh-hant', 'ru', 'de', 'it', 'fr', 'ja', 'pt'])
+        self.assertEqual(lang_codes,  ['zh-hant', 'ru', 'de', 'en','it', 'fr', 'ja', 'pt'])
 
 
 

@@ -39,6 +39,10 @@ def clean_text(text):
 MODEL_FILE = os.path.join(os.path.dirname(__file__), 'models', 'lid.176.ftz')
 SUPPLEMENT_MODLE_FILE = os.path.join(os.path.dirname(__file__), 'models', 'model_s.ftz')
 
+UNCERTAIN_SETS = ('zh', 'ko', 'ja')
+
+CHINESE_FAMILY_CODES =  ('zh-hant', 'zh-hans', 'zh-yue')
+
 class LID():
     def __init__(self, custom_model=None, sup_custom_model=None):
         self.model_file = MODEL_FILE
@@ -64,22 +68,28 @@ class LID():
         labels, probs = self.model.predict(text, k=k)
         lang_ids = list(map(lambda x: x.replace("__label__", ""), labels))
     
-        if lang_ids[0] in ['ko', 'zh', 'ja'] and ((probs[0] < supplement_threshold) or force_second):
+
+        # fasttext models usually confuse chinese, korean, japanese words
+        # if the model is not so sure we pass to our model to reduce down the uncertainty
+        if lang_ids[0] in UNCERTAIN_SETS and ((probs[0] < supplement_threshold) or force_second):
             labels_, probs_ = self.sup_model.predict(text, k=k)
+
             lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
             results = list(zip(lang_ids, probs_))
             if prob:
                 return list(zip(lang_ids, probs_))
-            return lang_ids[0]
+            return lang_ids if k > 1 else lang_ids[0]
+        # predict chinese: now we want to know what language is it
         elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold) or force_second:
+
             labels_, probs_ = self.sup_model.predict(text, k=4)
             lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
 
-            results = [ (lang_id, probs_[idx]  ) for idx, lang_id in enumerate(lang_ids) if lang_id in ['zh-hant', 'zh-hans'] ]
+            results = [ (lang_id, probs_[idx]  ) for idx, lang_id in enumerate(lang_ids) if lang_id in CHINESE_FAMILY_CODES]
             results.sort(key=lambda x: x[1], reverse=True)
             if prob: # validate prob is not None
                 return results
-            return results[0][0]
+            return [r[0] for r in results ] if k > 1 else results[0][0]
 
         # return list of predictions
         if prob:
