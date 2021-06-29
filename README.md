@@ -87,8 +87,15 @@ gd gl gn gom gu gv he hi hif hr hsb ht hu hy ia id ie ilo io is it ja jbo jv ka 
 kn ko krc ku kv kw ky la lb lez li lmo lo lrc lt lv mai mg mhr min mk ml mn mr mrj ms
 mt mwl my myv mzn nah nap nds ne new nl nn no oc or os pa pam pfl pl pms pnb ps pt qu
 rm ro ru rue sa sah sc scn sco sd sh si sk sl so sq sr su sv sw ta te tg th tk tl tr
-tt tyv ug uk ur uz vec vep vi vls vo wa war wuu xal xmf yi yo yue zh-hans zh-hant
+tt tyv ug uk ur uz vec vep vi vls vo wa war wuu xal xmf yi yo yue zh-hans zh-hant zh-yue
 ```
+
+## Caveats
+
+Bag of words method doesn't work well in short text classification as found by [this article by Apple](https://machinelearning.apple.com/research/language-identification-from-very-short-strings). Hence it's recommend that you ensure the text have at least more than 5 characters/words.
+
+Cantonese language identification is trained on daily conversation text which may not represent well in article types text. Hence it may confuse with traditional chinese (zh-hant) as they share the exact same characters.
+
 
 ## Reference
 
