@@ -53,8 +53,44 @@ class FastLangIdTest(unittest.TestCase):
             self.assertEqual(lang_code, 'en' )
 
 
+    def test_top_k(self):
+
+        for name in ['Peter', 'Dmitri', 'Jonas','Rahul', 'Mohamed', 'Ali']:
+            lang_code = self.langid.predict('{} is going to London this week'.format(name), k=5)
+            self.assertEqual(len(lang_code), 5)
+        for name in ['Peter', 'Dmitri', 'Jonas','Rahul', 'Mohamed', 'Ali']:
+            lang_code = self.langid.predict('{} is going to London this week'.format(name), k=5, prob=True)
+            self.assertEqual(len(lang_code), 5)
+
+        for name in ['Peter', 'Dmitri', 'Jonas','Rahul', 'Mohamed', 'Ali']:
+            lang_code_w_prob = self.langid.predict('{} is going to London this week'.format(name), k=1, prob=True)
+            lang_code, prob = lang_code_w_prob
+            self.assertEqual(len(lang_code_w_prob), 2)
+            self.assertEqual(lang_code, 'en')
+
+
+    def failed_test_case(self):
+        sentences = [
+            '人為過度捕獵 鯊魚數量減少70%',
+            'The Fierce Vulnerability of DMX',
+            'M1 iPad Pro在台開賣！11吋台幣24900元起、12.9吋Mini LED款台幣34900元起',
+            '《KDOQI慢性肾脏病营养实践指南2020更新版》专家谈',
+            '宜蘭東門夜市砍人案起因是她　3高中生險遭誤砍！警快打逮1嫌 | ETtoday社會新聞',
+            'IG收私訊「兼職日進千元」私訊　男大生匯款遭「總裁」詐騙 ｜ 蘋果新聞網 ｜ 蘋果日報',
+            'LDH: COVID-19 cases total 380K',
+            '【專欄】台積電來美設廠是榮耀也是義務',
+            'wwe-fastlane-live-stream-free-watch-online',
+            'HBL／嘉中羅楷翔文武雙全 乙級尋夢',
+            'RTX 3080 Ti 12GB傳將四月報到、RTX 3070 Ti 8GB則五月跟上'
+        ]
+        for sent in sentences:
+            lang_code = self.langid.predict(sent, prob=True, k=10)
+            self.assertEqual(lang_code, 'zh-hant' )
+
+
     def test_edge_cases(self):
         # brand in test case sentences are fictional and created only for testing purposes
+
 
         lang_code = self.langid.predict('2K 也決定從 NZIDIA GeForze Then 平台撤出')
         self.assertEqual(lang_code, 'zh-hant' )
