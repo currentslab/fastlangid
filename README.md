@@ -137,3 +137,7 @@ Cantonese language identification is trained on daily conversation text which ma
   year={2016}
 }
 ```
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fcodecov-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fcodecov-python?ref=badge_large)
