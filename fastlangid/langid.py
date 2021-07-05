@@ -64,7 +64,7 @@ class LID():
 
 
     def _predict_text(self, text, supplement_threshold=0.93, k=1, prob=False, force_second=False):
-        k = min(1, k)
+        k = max(1, k)
         labels, probs = self.model.predict(text, k=k)
         lang_ids = list(map(lambda x: x.replace("__label__", ""), labels))
     
@@ -93,8 +93,9 @@ class LID():
 
         # return list of predictions
         if prob:
-            return list(zip(lang_ids, probs))
-        return lang_ids[0]
+            prob_pair = list(zip(lang_ids, probs))
+            return  prob_pair[:k] if k > 1 else prob_pair[0]
+        return lang_ids[:k] if k > 1 else lang_ids[0]
 
     def clean_up(self, text, full_clean=False):
         if full_clean:
