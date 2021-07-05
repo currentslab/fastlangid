@@ -1,6 +1,7 @@
 # fastlangid
 
-[![codecov](https://codecov.io/gh/currentsapi/fastlangid/branch/master/graph/badge.svg)](https://codecov.io/gh/currentsapi/fastlangid)  [![PyPI version](https://badge.fury.io/py/fastlangid.svg)](https://badge.fury.io/py/fastlangid)
+[![codecov](https://codecov.io/gh/currentsapi/fastlangid/branch/master/graph/badge.svg)](https://codecov.io/gh/currentsapi/fastlangid) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcurrentsapi%2Ffastlangid.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcurrentsapi%2Ffastlangid?ref=badge_shield)
+ [![PyPI version](https://badge.fury.io/py/fastlangid.svg)](https://badge.fury.io/py/fastlangid)
 
 
 The only language identification that includes Cantonese (廣東話), traditional and simplified Chinese.
@@ -137,3 +138,6 @@ Cantonese language identification is trained on daily conversation text which ma
   year={2016}
 }
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcurrentsapi%2Ffastlangid.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcurrentsapi%2Ffastlangid?ref=badge_large)
