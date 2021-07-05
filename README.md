@@ -140,4 +140,4 @@ Cantonese language identification is trained on daily conversation text which ma
 
 ## License
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fcodecov-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fcodecov-python?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcurrentsapi%2Ffastlangid.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcurrentsapi%2Ffastlangid?ref=badge_large)
