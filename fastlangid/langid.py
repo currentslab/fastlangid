@@ -6,7 +6,6 @@ import fasttext
 from fastlangid.utils import (
     clean_text,
     only_punctuations,
-    input_preprocess,
     UNCERTAIN_SETS,
     UNK_CLS,
     REGEX_NOT_SUPPORT,
@@ -89,14 +88,14 @@ class LID():
     def clean_up(self, text, full_clean=False):
         if full_clean:
             text = clean_text(text)
-        return input_preprocess(text)
+        return text
 
-    def predict(self, text, full_clean=False,supplement_threshold=0.9, k=1, prob=False, force_second=False ):
+    def predict(self, text, full_clean=False, supplement_threshold=0.9, k=1, prob=False, force_second=False ):
         if isinstance(text, unicode):
-            text = self.clean_up(text, full_clean=full_clean)
+            text = self.clean_up(text)
             if len(text) == 0:
                 return UNK_CLS
-            elif only_punctuations(text[:40]):
+            elif only_punctuations(text[:50]):
                 return UNK_CLS
             return self._predict_text(text, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
         else:

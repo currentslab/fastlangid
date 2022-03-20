@@ -10,10 +10,6 @@ WHITE_SPACE_CLEANER = [
 ]
 HTML_CLEANER = re.compile(r'<.*?>')
 
-def input_preprocess(text):
-    text = re.sub(symbol_removal, "", text.strip())
-    # text = text.replace('Yahoo', '')
-    return text
 
 def clean_text(text):
 
