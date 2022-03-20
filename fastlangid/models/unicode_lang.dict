@@ -1,0 +1,3520 @@
+U+3000-U+3096	ja
+U+30A0-U+30FF	ja
+U+3400-U+4DB5U+4E00-U+9FCBU+F900-U+FA6A	zh-hans	ja	zh-hant
+U+3400-U+4DFFh	zh-yue	ja	zh-hans	ko	zh-hant
+U+4E00-U+9FFFh	zh-yue	ja	zh-hans	ko	zh-hant
+U+AC00-U+D7FFh	ko
+U+0600-U+06FF	ar
+U+0E00-U+0E7F	th
+U+0020-U+002F	vi
+U+0030-U+0039	vi
+U+003A-U+0040	vi
+U+0041-U+005A	vi
+U+005B-U+0060	vi
+U+0061-U+007A	vi
+U+007B-U+007E	vi
+U+00C0-U+00C3	vi
+U+00C8-U+00CA	vi
+U+00CC-U+00CD	vi
+U+00D0	vi
+U+00D2-U+00D5	vi
+U+00D9-U+00DA	vi
+U+00DD	vi
+U+00E0-U+00E3	vi
+U+00E8-U+00EA	vi
+U+00EC-U+00ED	vi
+U+00F2-U+00F5	vi
+U+00F9-U+00FA	vi
+U+00FD	vi
+U+0102-U+0103	vi
+U+0110-U+0111	vi
+U+0128-U+0129	vi
+U+0168-U+0169	vi
+U+01A0-U+01B0	vi
+U+1EA0-U+1EF9	vi
+U+02C6-U+0323	vi
+A-Za-zU+00E0U+00E8U+00E9U+00ECU+00F2U+00F3U+00F9	it
+U+0400-U+0500	uk	ky	be	ru	tk	sr	bg	uz	mk	kk
+U+E01-U+E3A	th
+U+E40-U+E4E	th
+U+2010-U+2011	id	ms	de	es	ru	th	en	ar	vi	fr
+U+2013-U+2014	id	ms	de	es	ru	th	en	ar	vi	fr
+U+2018-U+2019	id	ms	es	th	en	vi
+U+201C-U+201D	id	ms	es	th	it	en	vi	fr
+U+2032-U+2033	id	ms	es	th	en	vi
+U+20AC	ur	id	ms	de	es	ru	th	it	en	ar	vi	fr
+U+41-U+5F	id	ms	de	es	it	en	vi	fr
+U+61-U+7A	id	ms	es	en	vi	fr
+U+7C	id	ms	es	en	vi	fr
+U+A7	id	ms	de	es	en	vi	fr
+U+A9	id	ms	de	es	it	en	vi	fr
+U+C0-U+C3	vi
+U+C8-U+CA	vi
+U+CC-U+CD	vi
+U+D2-U+D5	vi
+U+D9-U+DA	vi
+U+DD	vi
+U+E0-U+E3	vi
+U+E8-U+EA	vi
+U+EC-U+ED	vi
+U+F2-U+F5	vi
+U+F9-U+FA	vi
+U+FD	vi
+U+102-U+103	vi
+U+110-U+111	vi
+U+128-U+129	vi
+U+168-U+169	vi
+U+1A0-U+1A1	vi
+U+1AF-U+1B0	vi
+U+2020-U+2021	id	ms	es	en	vi	fr
+U+301C	ko	ja
+U+30FB	ko
+U+3131	ko
+U+3134	ko
+U+3137	ko
+U+3139	ko
+U+3141-U+3142	ko
+U+3145	ko
+U+3147-U+3148	ko
+U+314A-U+314E	ko
+U+AC00-U+D7A3	ko
+U+FF01-U+FF03	zh-hans	ko	ja	zh-hant
+U+FF05-U+FF0A	zh-hans	ko	ja	zh-hant
+U+FF0C-U+FF0F	zh-hans	ko	ja	zh-hant
+U+FF1A-U+FF1B	zh-hans	ko	ja	zh-hant
+U+FF1F-U+FF20	zh-hans	ko	ja	zh-hant
+U+FF3B-U+FF3D	zh-hans	ko	ja	zh-hant
+U+FF3F	zh-hans	ko	ja	zh-hant
+U+FF5B	zh-hans	ko	ja	zh-hant
+U+FF5D	zh-hans	ko	ja	zh-hant
+U+3001-U+3003	ja
+U+3005	ja
+U+3008-U+3011	ja
+U+3014-U+3015	ja
+U+3041-U+3093	ja
+U+309D-U+309E	ja
+U+30A1-U+30F6	ja
+U+30FB-U+30FE	ja
+U+4E00-U+4E01	zh-hans	ja	zh-hant
+U+4E03	zh-hans	ja	zh-hant
+U+4E07-U+4E0B	ja
+U+4E0D-U+4E0E	ja
+U+4E14	ja	zh-hant
+U+4E16	zh-hans	ja	zh-hant
+U+4E18-U+4E19	ja	zh-hant
+U+4E21	ja
+U+4E26	ja	zh-hant
+U+4E2D	zh-hans	ja	zh-hant
+U+4E32	zh-hans	ja	zh-hant
+U+4E38-U+4E39	ja	zh-hant
+U+4E3B-U+4E3C	ja
+U+4E45	zh-hans	ja	zh-hant
+U+4E4F	ja
+U+4E57	ja
+U+4E59	ja
+U+4E5D-U+4E5E	ja
+U+4E71	ja
+U+4E73	ja
+U+4E7E	zh-hans	ja	zh-hant
+U+4E80	ja
+U+4E86	zh-hans	ja	zh-hant
+U+4E88-U+4E89	zh-hans	ja
+U+4E8B-U+4E8C	zh-hans	ja	zh-hant
+U+4E92	ja
+U+4E94-U+4E95	zh-hans	ja	zh-hant
+U+4E9C	ja
+U+4EA1	zh-hans	ja	zh-hant
+U+4EA4	ja
+U+4EAB-U+4EAD	ja
+U+4EBA	zh-hans	ja	zh-hant
+U+4EC1	ja
+U+4ECA-U+4ECB	zh-hans	ja	zh-hant
+U+4ECF	ja
+U+4ED5-U+4ED6	ja
+U+4ED8-U+4ED9	zh-hans	ja	zh-hant
+U+4EE3-U+4EE5	zh-hans	ja	zh-hant
+U+4EEE	ja
+U+4EF0	zh-hans	ja	zh-hant
+U+4EF2	zh-hans	ja	zh-hant
+U+4EF6	ja	zh-hant
+U+4EFB	zh-hans	ja	zh-hant
+U+4F01	zh-hans	ja	zh-hant
+U+4F0E-U+4F11	ja
+U+4F1A	ja
+U+4F1D	ja
+U+4F2F	ja
+U+4F34	zh-hans	ja	zh-hant
+U+4F38	zh-hans	ja	zh-hant
+U+4F3A	ja
+U+4F3C	ja
+U+4F46	zh-hans	ja	zh-hant
+U+4F4D-U+4F50	ja
+U+4F53	zh-hans	ja
+U+4F55	zh-hans	ja
+U+4F59	zh-hans	ja	zh-hant
+U+4F5C	ja
+U+4F73	zh-hans	ja	zh-hant
+U+4F75	ja
+U+4F7F	zh-hans	ja	zh-hant
+U+4F8B	zh-hans	ja	zh-hant
+U+4F8D	ja
+U+4F9B	zh-hans	ja	zh-hant
+U+4F9D	zh-hans	ja	zh-hant
+U+4FA1	ja
+U+4FAE-U+4FAF	ja
+U+4FB5-U+4FB6	ja
+U+4FBF	zh-hans	ja	zh-hant
+U+4FC2-U+4FC3	ja
+U+4FCA	zh-hans	ja	zh-hant
+U+4FD7	zh-hans	ja	zh-hant
+U+4FDD	zh-hans	ja	zh-hant
+U+4FE1	zh-hans	ja
+U+4FEE	zh-hans	ja	zh-hant
+U+4FF3	ja
+U+4FF5	ja
+U+4FF8	ja
+U+4FFA	ja
+U+5009	ja
+U+500B	ja	zh-hant
+U+500D	zh-hans	ja	zh-hant
+U+5012	zh-hans	ja
+U+5019	ja
+U+501F	zh-hans	ja	zh-hant
+U+5023-U+5024	ja
+U+502B	ja	zh-hant
+U+5039	ja
+U+5049	ja	zh-hant
+U+504F	zh-hans	ja	zh-hant
+U+505C	zh-hans	ja	zh-hant
+U+5065	zh-hans	ja	zh-hant
+U+5074-U+5076	ja
+U+507D	ja
+U+508D	ja
+U+5091	ja	zh-hant
+U+5098-U+5099	ja
+U+50AC	zh-hans	ja
+U+50B2	zh-hans	ja
+U+50B5	ja
+U+50B7	ja	zh-hant
+U+50BE	ja	zh-hant
+U+50C5	ja	zh-hant
+U+50CD	ja
+U+50CF	zh-hans	ja
+U+50D5	ja
+U+50DA	ja
+U+50E7	zh-hans	ja	zh-hant
+U+5100	ja	zh-hant
+U+5104	ja	zh-hant
+U+5112	zh-hans	ja	zh-hant
+U+511F	ja	zh-hant
+U+512A	ja	zh-hant
+U+5143-U+5146	zh-hans	ja
+U+5148-U+5149	zh-hans	ja
+U+514B	zh-hans	ja	zh-hant
+U+514D	zh-hans	ja	zh-hant
+U+5150	ja
+U+515A	zh-hans	ja
+U+5165	zh-hans	ja	zh-hant
+U+5168	zh-hans	ja
+U+516B-U+516D	ja
+U+5171	ja	zh-hant
+U+5175	ja
+U+5177-U+5178	ja
+U+517C	ja	zh-hant
+U+5185-U+5186	ja
+U+518A	ja	zh-hant
+U+518D	ja	zh-hant
+U+5192	zh-hans	ja	zh-hant
+U+5197	ja
+U+5199	zh-hans	ja
+U+51A0	zh-hans	ja	zh-hant
+U+51A5	ja
+U+51AC	zh-hans	ja	zh-hant
+U+51B6-U+51B7	ja
+U+51C4	ja
+U+51C6	zh-hans	ja	zh-hant
+U+51CD	ja
+U+51DD	zh-hans	ja	zh-hant
+U+51E1	ja	zh-hant
+U+51E6	ja
+U+51F6	ja
+U+51F8-U+51FA	ja
+U+5200	zh-hans	ja	zh-hant
+U+5203	ja
+U+5206-U+5208	ja
+U+520A	zh-hans	ja	zh-hant
+U+5211	ja
+U+5217	ja	zh-hant
+U+521D	zh-hans	ja	zh-hant
+U+5224-U+5225	ja	zh-hant
+U+5229	zh-hans	ja
+U+5230	zh-hans	ja	zh-hant
+U+5236-U+523B	ja
+U+5247	ja	zh-hant
+U+524A	ja
+U+524D	zh-hans	ja
+U+5256	ja
+U+525B	ja	zh-hant
+U+5263-U+5265	ja
+U+526F-U+5270	ja
+U+5272	zh-hans	ja	zh-hant
+U+5275	ja	zh-hant
+U+5287	ja	zh-hant
+U+529B	zh-hans	ja	zh-hant
+U+529F-U+52A0	ja	zh-hant
+U+52A3	zh-hans	ja
+U+52A9-U+52AA	ja
+U+52B1	ja
+U+52B4	ja
+U+52B9	ja
+U+52BE	ja
+U+52C3	ja
+U+52C5	ja
+U+52C7	zh-hans	ja	zh-hant
+U+52C9	zh-hans	ja	zh-hant
+U+52D5	ja	zh-hant
+U+52D8-U+52D9	ja
+U+52DD	ja
+U+52DF	ja
+U+52E2	ja	zh-hant
+U+52E4	zh-hans	ja	zh-hant
+U+52E7	ja
+U+52F2	ja
+U+52FE	ja
+U+5302	ja
+U+5305	ja	zh-hant
+U+5316-U+5317	zh-hans	ja	zh-hant
+U+5320	ja
+U+5339-U+533B	zh-hans	ja
+U+533F	ja
+U+5341	zh-hans	ja
+U+5343	zh-hans	ja	zh-hant
+U+5347-U+5348	zh-hans	ja	zh-hant
+U+534A	zh-hans	ja	zh-hant
+U+5351-U+5354	ja
+U+5357-U+5358	ja
+U+535A	zh-hans	ja	zh-hant
+U+5360	ja
+U+5370-U+5371	ja
+U+5373-U+5375	ja
+U+5378	ja
+U+5384	ja	zh-hant
+U+5398	ja	zh-hant
+U+539A	zh-hans	ja	zh-hant
+U+539F	zh-hans	ja	zh-hant
+U+53B3	ja
+U+53BB	zh-hans	ja	zh-hant
+U+53C2	zh-hans	ja
+U+53C8	ja	zh-hant
+U+53CA-U+53CE	ja
+U+53D4	zh-hans	ja	zh-hant
+U+53D6-U+53D7	ja	zh-hant
+U+53D9	ja
+U+53E3-U+53E5	ja
+U+53EB-U+53EC	ja
+U+53EF-U+53F3	ja
+U+53F7-U+53F8	ja
+U+5404	ja
+U+5408-U+5409	ja
+U+540C-U+5411	ja
+U+541B	zh-hans	ja	zh-hant
+U+541F	zh-hans	ja
+U+5426	ja
+U+542B	ja	zh-hant
+U+5438-U+5439	zh-hans	ja	zh-hant
+U+5442	ja	zh-hant
+U+5448-U+544A	ja
+U+5468	zh-hans	ja	zh-hant
+U+546A	ja
+U+5473	zh-hans	ja	zh-hant
+U+547C-U+547D	zh-hans	ja	zh-hant
+U+548C	zh-hans	ja	zh-hant
+U+54B2	ja
+U+54BD	ja
+U+54C0-U+54C1	zh-hans	ja	zh-hant
+U+54E1	ja	zh-hant
+U+54F2	zh-hans	ja	zh-hant
+U+54FA	ja
+U+5504	ja
+U+5506-U+5507	ja
+U+5510	zh-hans	ja	zh-hant
+U+552F	ja
+U+5531	zh-hans	ja	zh-hant
+U+553E	ja
+U+5546	zh-hans	ja	zh-hant
+U+554F	ja	zh-hant
+U+5553	ja
+U+5584	zh-hans	ja	zh-hant
+U+5589	ja
+U+559A	ja
+U+559C-U+559D	zh-hans	ja	zh-hant
+U+55A9-U+55AB	ja
+U+55B6	ja
+U+55C5	ja
+U+55E3	ja
+U+5606	ja	zh-hant
+U+5631-U+5632	ja
+U+5668	zh-hans	ja	zh-hant
+U+5674	ja	zh-hant
+U+5687	ja	zh-hant
+U+56DA-U+56DB	ja
+U+56DE	zh-hans	ja	zh-hant
+U+56E0	zh-hans	ja	zh-hant
+U+56E3	ja
+U+56F0	zh-hans	ja	zh-hant
+U+56F2-U+56F3	ja
+U+56FA	zh-hans	ja	zh-hant
+U+56FD	ja
+U+570F	ja
+U+5712	ja
+U+571F	zh-hans	ja	zh-hant
+U+5727-U+5728	ja
+U+5730	zh-hans	ja	zh-hant
+U+5742	ja
+U+5747	zh-hans	ja	zh-hant
+U+574A	ja
+U+5751	ja
+U+576A	zh-hans	ja	zh-hant
+U+5782	ja
+U+578B	zh-hans	ja	zh-hant
+U+57A3	ja
+U+57CB	zh-hans	ja
+U+57CE	zh-hans	ja	zh-hant
+U+57DF	zh-hans	ja	zh-hant
+U+57F7	ja	zh-hant
+U+57F9-U+57FA	zh-hans	ja	zh-hant
+U+57FC	ja
+U+5800	ja
+U+5802	zh-hans	ja	zh-hant
+U+5805-U+5806	ja	zh-hant
+U+5815	zh-hans	ja
+U+5824	ja
+U+582A	zh-hans	ja	zh-hant
+U+5831	ja	zh-hant
+U+5834	ja	zh-hant
+U+5840-U+5841	ja
+U+584A	ja	zh-hant
+U+5851	zh-hans	ja
+U+5854	zh-hans	ja	zh-hant
+U+5857	ja	zh-hant
+U+585A	ja
+U+585E	zh-hans	ja	zh-hant
+U+5869	ja
+U+586B	zh-hans	ja	zh-hant
+U+587E	ja
+U+5883	zh-hans	ja	zh-hant
+U+5893	ja
+U+5897	ja
+U+589C	ja
+U+58A8	zh-hans	ja	zh-hant
+U+58B3	ja
+U+58BE	ja
+U+58C1	zh-hans	ja	zh-hant
+U+58C7	ja	zh-hant
+U+58CA	ja
+U+58CC	ja
+U+58EB	ja
+U+58EE	zh-hans	ja
+U+58F0-U+58F2	ja
+U+5909	ja
+U+590F	zh-hans	ja	zh-hant
+U+5915-U+5916	zh-hans	ja	zh-hant
+U+591A	zh-hans	ja	zh-hant
+U+591C	zh-hans	ja	zh-hant
+U+5922	ja	zh-hant
+U+5927	zh-hans	ja	zh-hant
+U+5929-U+592B	zh-hans	ja	zh-hant
+U+592E	zh-hans	ja	zh-hant
+U+5931	zh-hans	ja	zh-hant
+U+5947-U+5949	zh-hans	ja	zh-hant
+U+594F	zh-hans	ja
+U+5951	zh-hans	ja	zh-hant
+U+5954	zh-hans	ja	zh-hant
+U+5965	zh-hans	ja
+U+5968	ja
+U+596A	ja	zh-hant
+U+596E	ja	zh-hant
+U+5973-U+5974	zh-hans	ja	zh-hant
+U+597D	zh-hans	ja	zh-hant
+U+5982-U+5984	ja
+U+598A	ja
+U+5996	zh-hans	ja
+U+5999	zh-hans	ja	zh-hant
+U+59A5	zh-hans	ja	zh-hant
+U+59A8	zh-hans	ja	zh-hant
+U+59AC	ja
+U+59B9	zh-hans	ja	zh-hant
+U+59BB	zh-hans	ja	zh-hant
+U+59C9	ja
+U+59CB	ja
+U+59D3-U+59D4	zh-hans	ja	zh-hant
+U+59EB	ja
+U+59FB	ja
+U+59FF	zh-hans	ja	zh-hant
+U+5A01	zh-hans	ja	zh-hant
+U+5A18	zh-hans	ja	zh-hant
+U+5A20	ja
+U+5A2F	ja
+U+5A46	zh-hans	ja	zh-hant
+U+5A5A	zh-hans	ja	zh-hant
+U+5A66	ja	zh-hant
+U+5A7F	ja
+U+5A92	zh-hans	ja	zh-hant
+U+5A9B	ja
+U+5AC1	zh-hans	ja
+U+5AC9	ja
+U+5ACC	zh-hans	ja	zh-hant
+U+5AE1	ja
+U+5B22	ja
+U+5B50	zh-hans	ja	zh-hant
+U+5B54	ja	zh-hant
+U+5B57-U+5B58	ja	zh-hant
+U+5B5D	ja	zh-hant
+U+5B63-U+5B64	zh-hans	ja	zh-hant
+U+5B66	zh-hans	ja
+U+5B6B	ja	zh-hant
+U+5B85	ja	zh-hant
+U+5B87-U+5B89	zh-hans	ja	zh-hant
+U+5B8C	ja
+U+5B97-U+5B9D	ja
+U+5B9F	ja
+U+5BA2-U+5BA4	ja	zh-hant
+U+5BAE	ja	zh-hant
+U+5BB0	ja
+U+5BB3-U+5BB6	ja
+U+5BB9	zh-hans	ja	zh-hant
+U+5BBF	ja	zh-hant
+U+5BC2	zh-hans	ja	zh-hant
+U+5BC4	ja
+U+5BC6	ja
+U+5BCC	zh-hans	ja	zh-hant
+U+5BD2	zh-hans	ja	zh-hant
+U+5BDB	ja
+U+5BDD	ja
+U+5BDF	ja
+U+5BE1	zh-hans	ja
+U+5BE7	ja
+U+5BE9	ja
+U+5BEE	ja	zh-hant
+U+5BF8	ja
+U+5BFA	ja
+U+5BFE-U+5BFF	ja
+U+5C01-U+5C02	ja
+U+5C04	zh-hans	ja	zh-hant
+U+5C06	zh-hans	ja
+U+5C09-U+5C0B	ja
+U+5C0E-U+5C0F	ja
+U+5C11	zh-hans	ja	zh-hant
+U+5C1A	zh-hans	ja	zh-hant
+U+5C31	zh-hans	ja	zh-hant
+U+5C3A-U+5C40	ja
+U+5C45	zh-hans	ja
+U+5C48	ja
+U+5C4A-U+5C4B	ja
+U+5C55	zh-hans	ja	zh-hant
+U+5C5E	zh-hans	ja
+U+5C64-U+5C65	ja
+U+5C6F	ja
+U+5C71	zh-hans	ja	zh-hant
+U+5C90	ja
+U+5CA1	ja	zh-hant
+U+5CA9	ja	zh-hant
+U+5CAC	ja
+U+5CB3	zh-hans	ja
+U+5CB8	zh-hans	ja	zh-hant
+U+5CE0-U+5CE1	ja
+U+5CF0	zh-hans	ja	zh-hant
+U+5CF6	ja	zh-hant
+U+5D07	zh-hans	ja	zh-hant
+U+5D0E	ja
+U+5D16	ja
+U+5D29	zh-hans	ja
+U+5D50	ja	zh-hant
+U+5DDD-U+5DDE	zh-hans	ja	zh-hant
+U+5DE1	zh-hans	ja	zh-hant
+U+5DE3	ja
+U+5DE5-U+5DE8	zh-hans	ja	zh-hant
+U+5DEE	zh-hans	ja	zh-hant
+U+5DF1	ja
+U+5DFB	ja
+U+5DFE	ja
+U+5E02-U+5E03	ja	zh-hant
+U+5E06	ja
+U+5E0C	zh-hans	ja	zh-hant
+U+5E1D	zh-hans	ja	zh-hant
+U+5E25	ja	zh-hant
+U+5E2B	ja	zh-hant
+U+5E2D	ja	zh-hant
+U+5E2F-U+5E30	ja
+U+5E33	ja	zh-hant
+U+5E38	zh-hans	ja	zh-hant
+U+5E3D	zh-hans	ja	zh-hant
+U+5E45	zh-hans	ja	zh-hant
+U+5E55	zh-hans	ja	zh-hant
+U+5E63	ja	zh-hant
+U+5E72-U+5E74	zh-hans	ja	zh-hant
+U+5E78-U+5E79	ja	zh-hant
+U+5E7B-U+5E7E	ja	zh-hant
+U+5E81	ja
+U+5E83	ja
+U+5E8A	zh-hans	ja	zh-hant
+U+5E8F	zh-hans	ja	zh-hant
+U+5E95	ja	zh-hant
+U+5E97	zh-hans	ja	zh-hant
+U+5E9C	zh-hans	ja	zh-hant
+U+5EA6-U+5EA7	zh-hans	ja	zh-hant
+U+5EAB	ja	zh-hant
+U+5EAD	zh-hans	ja	zh-hant
+U+5EB6-U+5EB8	ja
+U+5EC3	ja
+U+5EC9-U+5ECA	ja
+U+5EF6-U+5EF7	zh-hans	ja	zh-hant
+U+5EFA	zh-hans	ja	zh-hant
+U+5F01	ja
+U+5F04	ja	zh-hant
+U+5F0A	zh-hans	ja
+U+5F0F-U+5F10	ja
+U+5F13-U+5F15	ja
+U+5F1F	ja	zh-hant
+U+5F25-U+5F27	ja
+U+5F31	zh-hans	ja	zh-hant
+U+5F35	ja	zh-hant
+U+5F37	ja	zh-hant
+U+5F3E	ja
+U+5F53	ja
+U+5F59	ja
+U+5F62	zh-hans	ja	zh-hant
+U+5F69	zh-hans	ja	zh-hant
+U+5F6B	ja
+U+5F70-U+5F71	zh-hans	ja	zh-hant
+U+5F79	zh-hans	ja	zh-hant
+U+5F7C	ja	zh-hant
+U+5F80-U+5F81	zh-hans	ja	zh-hant
+U+5F84-U+5F85	zh-hans	ja
+U+5F8B-U+5F8C	zh-hans	ja	zh-hant
+U+5F90	zh-hans	ja
+U+5F92-U+5F93	ja
+U+5F97	zh-hans	ja	zh-hant
+U+5FA1	ja
+U+5FA9-U+5FAA	ja
+U+5FAE	zh-hans	ja	zh-hant
+U+5FB3-U+5FB4	ja
+U+5FB9	ja	zh-hant
+U+5FC3	zh-hans	ja	zh-hant
+U+5FC5	ja	zh-hant
+U+5FCC-U+5FCD	zh-hans	ja	zh-hant
+U+5FD7-U+5FD9	zh-hans	ja	zh-hant
+U+5FDC	ja
+U+5FE0	zh-hans	ja	zh-hant
+U+5FEB	zh-hans	ja	zh-hant
+U+5FF5	zh-hans	ja	zh-hant
+U+6012	zh-hans	ja	zh-hant
+U+6016	ja
+U+601D	zh-hans	ja	zh-hant
+U+6020	ja
+U+6025	zh-hans	ja	zh-hant
+U+6027-U+6028	zh-hans	ja	zh-hant
+U+602A	zh-hans	ja	zh-hant
+U+604B	zh-hans	ja
+U+6050	zh-hans	ja	zh-hant
+U+6052	ja
+U+6063	ja
+U+6065	ja	zh-hant
+U+6068-U+6069	zh-hans	ja	zh-hant
+U+606D	zh-hans	ja	zh-hant
+U+606F	ja
+U+6075	ja
+U+6094	zh-hans	ja	zh-hant
+U+609F-U+60A0	zh-hans	ja	zh-hant
+U+60A3	zh-hans	ja
+U+60A6	ja
+U+60A9-U+60AA	ja
+U+60B2	zh-hans	ja	zh-hant
+U+60BC	ja
+U+60C5	zh-hans	ja	zh-hant
+U+60D1	zh-hans	ja	zh-hant
+U+60DC	zh-hans	ja	zh-hant
+U+60E7-U+60E8	zh-hans	ja
+U+60F0	ja
+U+60F3	zh-hans	ja	zh-hant
+U+6101	zh-hans	ja	zh-hant
+U+6109	ja
+U+610F	zh-hans	ja	zh-hant
+U+611A-U+611B	ja	zh-hant
+U+611F	zh-hans	ja	zh-hant
+U+6144	ja
+U+6148	zh-hans	ja	zh-hant
+U+614B-U+614C	ja
+U+614E	zh-hans	ja
+U+6155	zh-hans	ja	zh-hant
+U+6162-U+6163	ja	zh-hant
+U+6168	ja
+U+616E	ja	zh-hant
+U+6170	zh-hans	ja	zh-hant
+U+6176	ja	zh-hant
+U+6182	ja	zh-hant
+U+618E	ja
+U+61A4	ja
+U+61A7	ja
+U+61A9	ja
+U+61AC	ja
+U+61B2	ja	zh-hant
+U+61B6	ja	zh-hant
+U+61BE	zh-hans	ja	zh-hant
+U+61C7	ja
+U+61D0	ja
+U+61F2	ja
+U+61F8	ja
+U+6210-U+6212	ja	zh-hant
+U+621A	ja
+U+6226	ja
+U+622F	ja
+U+6234	zh-hans	ja	zh-hant
+U+6238	ja
+U+623B	ja
+U+623F-U+6240	ja
+U+6247	zh-hans	ja	zh-hant
+U+6249	ja
+U+624B	zh-hans	ja	zh-hant
+U+624D	ja
+U+6253	zh-hans	ja	zh-hant
+U+6255	ja
+U+6271	ja
+U+6276	ja
+U+6279	zh-hans	ja	zh-hant
+U+627F-U+6280	ja
+U+6284	zh-hans	ja	zh-hant
+U+628A	zh-hans	ja	zh-hant
+U+6291	zh-hans	ja
+U+6295	zh-hans	ja	zh-hant
+U+6297-U+6298	zh-hans	ja	zh-hant
+U+629C	ja
+U+629E	ja
+U+62AB	ja
+U+62B1	zh-hans	ja	zh-hant
+U+62B5	zh-hans	ja	zh-hant
+U+62B9	zh-hans	ja	zh-hant
+U+62BC-U+62BD	ja
+U+62C5	ja
+U+62C9	zh-hans	ja	zh-hant
+U+62CD	zh-hans	ja	zh-hant
+U+62D0	ja
+U+62D2-U+62D3	ja
+U+62D8-U+62D9	ja
+U+62DB	ja
+U+62DD	ja
+U+62E0-U+62E1	ja
+U+62EC-U+62ED	ja
+U+62F3	zh-hans	ja	zh-hant
+U+62F6-U+62F7	ja
+U+62FE	ja
+U+6301	zh-hans	ja	zh-hant
+U+6307	zh-hans	ja	zh-hant
+U+6311	zh-hans	ja	zh-hant
+U+6319	ja
+U+631F	ja
+U+6328	ja
+U+632B	ja
+U+632F	zh-hans	ja	zh-hant
+U+633F	ja
+U+6349	zh-hans	ja
+U+6355	zh-hans	ja	zh-hant
+U+6357	ja
+U+635C	ja
+U+6368	ja	zh-hant
+U+636E	zh-hans	ja
+U+637B	ja
+U+6383	ja	zh-hant
+U+6388	ja
+U+638C	zh-hans	ja	zh-hant
+U+6392	zh-hans	ja	zh-hant
+U+6398	ja
+U+639B	ja	zh-hant
+U+63A1-U+63A2	ja	zh-hant
+U+63A5	zh-hans	ja	zh-hant
+U+63A7-U+63A8	ja	zh-hant
+U+63AA	ja	zh-hant
+U+63B2	ja
+U+63CF-U+63D0	zh-hans	ja	zh-hant
+U+63DA-U+63DB	ja	zh-hant
+U+63E1	zh-hans	ja	zh-hant
+U+63EE	ja	zh-hant
+U+63F4	zh-hans	ja	zh-hant
+U+63FA	ja
+U+640D	ja	zh-hant
+U+642C-U+642D	zh-hans	ja	zh-hant
+U+643A	ja
+U+643E	ja
+U+6442	ja
+U+6458	zh-hans	ja	zh-hant
+U+6469	zh-hans	ja	zh-hant
+U+646F	ja
+U+6483	ja
+U+64A4	ja
+U+64AE	ja
+U+64B2	ja
+U+64C1	ja	zh-hant
+U+64CD	ja
+U+64E6	zh-hans	ja	zh-hant
+U+64EC	ja	zh-hant
+U+652F	zh-hans	ja	zh-hant
+U+6539	zh-hans	ja	zh-hant
+U+653B	zh-hans	ja	zh-hant
+U+653E-U+653F	zh-hans	ja	zh-hant
+U+6545	zh-hans	ja	zh-hant
+U+654F	zh-hans	ja	zh-hant
+U+6551	zh-hans	ja	zh-hant
+U+6557	ja
+U+6559	zh-hans	ja
+U+6562-U+6563	zh-hans	ja	zh-hant
+U+656C	zh-hans	ja	zh-hant
+U+6570	zh-hans	ja
+U+6574-U+6575	ja	zh-hant
+U+6577	ja
+U+6587	zh-hans	ja	zh-hant
+U+6589	ja
+U+658E	ja
+U+6591	ja
+U+6597	zh-hans	ja	zh-hant
+U+6599	zh-hans	ja	zh-hant
+U+659C	zh-hans	ja
+U+65A4-U+65A5	ja
+U+65AC-U+65AD	ja
+U+65B0	ja
+U+65B9	zh-hans	ja	zh-hant
+U+65BD	ja
+U+65C5	zh-hans	ja	zh-hant
+U+65CB	zh-hans	ja	zh-hant
+U+65CF	zh-hans	ja	zh-hant
+U+65D7	zh-hans	ja	zh-hant
+U+65E2	zh-hans	ja	zh-hant
+U+65E5-U+65E9	zh-hans	ja
+U+65EC	ja
+U+65FA	zh-hans	ja	zh-hant
+U+6606-U+6607	ja	zh-hant
+U+660E	ja
+U+6613-U+6614	ja
+U+661F-U+6620	zh-hans	ja	zh-hant
+U+6625	zh-hans	ja	zh-hant
+U+6627-U+6628	ja
+U+662D	zh-hans	ja	zh-hant
+U+662F	zh-hans	ja	zh-hant
+U+663C	ja
+U+6642	ja	zh-hant
+U+6669	ja
+U+666E-U+666F	zh-hans	ja	zh-hant
+U+6674	zh-hans	ja	zh-hant
+U+6676	zh-hans	ja	zh-hant
+U+6681	ja
+U+6687	ja
+U+6691	zh-hans	ja	zh-hant
+U+6696-U+6697	zh-hans	ja	zh-hant
+U+66A6	ja
+U+66AB	ja	zh-hant
+U+66AE	zh-hans	ja
+U+66B4	zh-hans	ja	zh-hant
+U+66C7	ja
+U+66D6	ja
+U+66DC	ja
+U+66F2	zh-hans	ja	zh-hant
+U+66F4	zh-hans	ja	zh-hant
+U+66F8-U+66F9	ja
+U+66FD	ja
+U+66FF-U+6700	ja
+U+6708-U+6709	zh-hans	ja	zh-hant
+U+670D	zh-hans	ja	zh-hant
+U+6715	ja
+U+6717	zh-hans	ja	zh-hant
+U+671B	zh-hans	ja	zh-hant
+U+671D	zh-hans	ja	zh-hant
+U+671F	zh-hans	ja	zh-hant
+U+6728	zh-hans	ja	zh-hant
+U+672A-U+672D	zh-hans	ja	zh-hant
+U+6731	zh-hans	ja	zh-hant
+U+6734	ja
+U+673A	zh-hans	ja
+U+673D	ja
+U+6749	zh-hans	ja	zh-hant
+U+6750-U+6751	zh-hans	ja	zh-hant
+U+675F	zh-hans	ja	zh-hant
+U+6761	zh-hans	ja
+U+6765	zh-hans	ja
+U+676F	ja
+U+6771	ja
+U+677E-U+677F	zh-hans	ja	zh-hant
+U+6790	zh-hans	ja	zh-hant
+U+6795	ja
+U+6797	zh-hans	ja	zh-hant
+U+679A	ja
+U+679C-U+679D	zh-hans	ja	zh-hant
+U+67A0	ja
+U+67A2	zh-hans	ja
+U+67AF	ja
+U+67B6	zh-hans	ja	zh-hant
+U+67C4	ja
+U+67D0	ja
+U+67D3-U+67D4	zh-hans	ja	zh-hant
+U+67F1	ja
+U+67F3	ja
+U+67F5	ja
+U+67FB	ja
+U+67FF	ja
+U+6803-U+6804	ja
+U+6813	ja
+U+6821	zh-hans	ja	zh-hant
+U+682A	ja
+U+6838-U+6839	ja	zh-hant
+U+683C-U+683D	ja
+U+6841	ja
+U+6843	zh-hans	ja	zh-hant
+U+6848	zh-hans	ja	zh-hant
+U+6851	zh-hans	ja	zh-hant
+U+685C	ja
+U+685F	ja
+U+6885	zh-hans	ja	zh-hant
+U+6897	ja
+U+68A8	ja	zh-hant
+U+68B0	ja
+U+68C4	ja	zh-hant
+U+68CB	zh-hans	ja	zh-hant
+U+68D2	zh-hans	ja	zh-hant
+U+68DA	zh-hans	ja	zh-hant
+U+68DF	ja
+U+68EE	zh-hans	ja	zh-hant
+U+68FA	ja
+U+6905	zh-hans	ja	zh-hant
+U+690D-U+690E	ja
+U+691C	ja
+U+696D	ja	zh-hant
+U+6975	ja	zh-hant
+U+6977	ja
+U+697C-U+697D	ja
+U+6982	zh-hans	ja	zh-hant
+U+69CB	ja	zh-hant
+U+69D8	ja
+U+69FD	ja
+U+6A19	ja	zh-hant
+U+6A21	zh-hans	ja	zh-hant
+U+6A29-U+6A2A	ja
+U+6A39	ja	zh-hant
+U+6A4B	ja	zh-hant
+U+6A5F	ja	zh-hant
+U+6B04	ja	zh-hant
+U+6B20-U+6B21	ja
+U+6B27	zh-hans	ja
+U+6B32	zh-hans	ja	zh-hant
+U+6B3A	zh-hans	ja	zh-hant
+U+6B3E	zh-hans	ja
+U+6B4C	zh-hans	ja	zh-hant
+U+6B53	ja
+U+6B62-U+6B63	ja
+U+6B66	ja
+U+6B69	ja
+U+6B6F	ja
+U+6B73-U+6B74	ja
+U+6B7B	zh-hans	ja	zh-hant
+U+6B89-U+6B8B	ja
+U+6B96	ja
+U+6BB4-U+6BB5	ja
+U+6BBA-U+6BBB	ja
+U+6BBF-U+6BC0	ja
+U+6BCD-U+6BCE	ja
+U+6BD2	zh-hans	ja	zh-hant
+U+6BD4	ja	zh-hant
+U+6BDB	zh-hans	ja	zh-hant
+U+6C0F	zh-hans	ja	zh-hant
+U+6C11	zh-hans	ja	zh-hant
+U+6C17	ja
+U+6C34	zh-hans	ja	zh-hant
+U+6C37-U+6C38	ja
+U+6C3E	ja
+U+6C41-U+6C42	ja
+U+6C4E	ja
+U+6C57	zh-hans	ja	zh-hant
+U+6C5A	ja
+U+6C5F-U+6C60	ja
+U+6C70	ja
+U+6C7A	ja	zh-hant
+U+6C7D	zh-hans	ja	zh-hant
+U+6C83	zh-hans	ja	zh-hant
+U+6C88	ja
+U+6C96	ja	zh-hant
+U+6C99	zh-hans	ja	zh-hant
+U+6CA1-U+6CA2	ja
+U+6CB3	zh-hans	ja	zh-hant
+U+6CB8-U+6CB9	ja
+U+6CBB-U+6CBC	ja
+U+6CBF	zh-hans	ja	zh-hant
+U+6CC1	ja	zh-hant
+U+6CC9-U+6CCA	zh-hans	ja	zh-hant
+U+6CCC	ja
+U+6CD5	zh-hans	ja	zh-hant
+U+6CE1-U+6CE3	zh-hans	ja
+U+6CE5	zh-hans	ja	zh-hant
+U+6CE8	zh-hans	ja	zh-hant
+U+6CF0	zh-hans	ja	zh-hant
+U+6CF3	zh-hans	ja	zh-hant
+U+6D0B	zh-hans	ja	zh-hant
+U+6D17	zh-hans	ja	zh-hant
+U+6D1E	zh-hans	ja	zh-hant
+U+6D25	zh-hans	ja
+U+6D2A	zh-hans	ja
+U+6D3B	zh-hans	ja	zh-hant
+U+6D3E	ja
+U+6D41	zh-hans	ja	zh-hant
+U+6D44-U+6D45	ja
+U+6D5C	ja
+U+6D66	zh-hans	ja	zh-hant
+U+6D6A	ja
+U+6D6E	zh-hans	ja	zh-hant
+U+6D74	zh-hans	ja
+U+6D77-U+6D78	ja
+U+6D88	ja
+U+6D99	ja
+U+6DAF	zh-hans	ja	zh-hant
+U+6DB2	zh-hans	ja	zh-hant
+U+6DBC	ja	zh-hant
+U+6DD1	zh-hans	ja	zh-hant
+U+6DE1	zh-hans	ja	zh-hant
+U+6DEB	ja
+U+6DF1	zh-hans	ja	zh-hant
+U+6DF7	zh-hans	ja	zh-hant
+U+6DFB	zh-hans	ja
+U+6E05	zh-hans	ja	zh-hant
+U+6E07-U+6E09	ja
+U+6E0B	ja
+U+6E13	ja
+U+6E1B	ja	zh-hant
+U+6E21	zh-hans	ja	zh-hant
+U+6E26	ja
+U+6E29	zh-hans	ja
+U+6E2C	ja	zh-hant
+U+6E2F	zh-hans	ja	zh-hant
+U+6E56	zh-hans	ja	zh-hant
+U+6E67	ja
+U+6E6F	ja	zh-hant
+U+6E7E-U+6E80	ja
+U+6E90	zh-hans	ja	zh-hant
+U+6E96	ja	zh-hant
+U+6E9D	ja	zh-hant
+U+6EB6	ja
+U+6EBA	ja
+U+6EC5	ja
+U+6ECB	zh-hans	ja	zh-hant
+U+6ED1	zh-hans	ja	zh-hant
+U+6EDD-U+6EDE	ja
+U+6EF4	zh-hans	ja	zh-hant
+U+6F01-U+6F02	ja
+U+6F06	ja
+U+6F0F	zh-hans	ja	zh-hant
+U+6F14	zh-hans	ja	zh-hant
+U+6F20	zh-hans	ja	zh-hant
+U+6F22	ja	zh-hant
+U+6F2B-U+6F2C	ja
+U+6F38	ja	zh-hant
+U+6F54	ja	zh-hant
+U+6F5C	zh-hans	ja
+U+6F5F	ja
+U+6F64	ja
+U+6F6E	zh-hans	ja	zh-hant
+U+6F70	ja
+U+6F84	ja
+U+6FC0-U+6FC1	ja
+U+6FC3	ja	zh-hant
+U+6FEB	ja	zh-hant
+U+6FEF	ja
+U+702C	ja
+U+706B	zh-hans	ja	zh-hant
+U+706F-U+7070	zh-hans	ja
+U+707D	ja	zh-hant
+U+7089-U+708A	ja
+U+708E	zh-hans	ja	zh-hant
+U+70AD	ja
+U+70B9-U+70BA	ja
+U+70C8	zh-hans	ja	zh-hant
+U+7121	ja	zh-hant
+U+7126	zh-hans	ja	zh-hant
+U+7136	zh-hans	ja	zh-hant
+U+713C	ja
+U+714E	ja
+U+7159	ja	zh-hant
+U+7167	zh-hans	ja	zh-hant
+U+7169	ja	zh-hant
+U+716E	zh-hans	ja
+U+718A	zh-hans	ja	zh-hant
+U+719F	zh-hans	ja	zh-hant
+U+71B1	ja	zh-hant
+U+71C3	zh-hans	ja	zh-hant
+U+71E5	ja
+U+7206	zh-hans	ja	zh-hant
+U+722A	zh-hans	ja	zh-hant
+U+7235-U+7236	ja	zh-hant
+U+723D	zh-hans	ja
+U+7247-U+7248	zh-hans	ja
+U+7259	zh-hans	ja	zh-hant
+U+725B	zh-hans	ja	zh-hant
+U+7267	zh-hans	ja	zh-hant
+U+7269	zh-hans	ja	zh-hant
+U+7272	zh-hans	ja	zh-hant
+U+7279	ja	zh-hant
+U+72A0	ja
+U+72AC	ja
+U+72AF	zh-hans	ja	zh-hant
+U+72B6	zh-hans	ja
+U+72C2	zh-hans	ja	zh-hant
+U+72D9	ja
+U+72E9	ja
+U+72EC-U+72ED	ja
+U+731B	ja
+U+731F	ja
+U+732B	ja
+U+732E	zh-hans	ja
+U+7336	ja	zh-hant
+U+733F	ja
+U+7344	ja
+U+7363	ja
+U+7372	ja	zh-hant
+U+7384	zh-hans	ja	zh-hant
+U+7387	zh-hans	ja	zh-hant
+U+7389	zh-hans	ja	zh-hant
+U+738B	zh-hans	ja	zh-hant
+U+73A9	zh-hans	ja	zh-hant
+U+73CD	zh-hans	ja	zh-hant
+U+73E0	zh-hans	ja	zh-hant
+U+73ED	zh-hans	ja	zh-hant
+U+73FE	ja	zh-hant
+U+7403	zh-hans	ja	zh-hant
+U+7406	zh-hans	ja	zh-hant
+U+7434	ja	zh-hant
+U+7460	ja
+U+7483	zh-hans	ja
+U+74A7	ja
+U+74B0	ja	zh-hant
+U+74BD	ja
+U+74E6	zh-hans	ja	zh-hant
+U+74F6	zh-hans	ja	zh-hant
+U+7518	zh-hans	ja	zh-hant
+U+751A	zh-hans	ja	zh-hant
+U+751F	zh-hans	ja	zh-hant
+U+7523	ja
+U+7528	zh-hans	ja	zh-hant
+U+7530-U+7533	zh-hans	ja	zh-hant
+U+7537	ja
+U+753A-U+753B	ja
+U+754C	zh-hans	ja	zh-hant
+U+754F	ja
+U+7551	ja
+U+7554	ja
+U+7559	zh-hans	ja	zh-hant
+U+755C-U+755D	ja
+U+7565	zh-hans	ja	zh-hant
+U+756A	zh-hans	ja
+U+7570	ja	zh-hant
+U+7573	ja
+U+757F	ja
+U+758E	ja
+U+7591	zh-hans	ja	zh-hant
+U+75AB	ja
+U+75B2	zh-hans	ja
+U+75BE	zh-hans	ja
+U+75C5	zh-hans	ja	zh-hant
+U+75C7	ja
+U+75D5	zh-hans	ja	zh-hant
+U+75D8	ja
+U+75DB	zh-hans	ja	zh-hant
+U+75E2	ja
+U+75E9	ja
+U+75F4	zh-hans	ja	zh-hant
+U+760D	ja
+U+7642	ja	zh-hant
+U+7652	ja
+U+7656	ja
+U+767A-U+767B	ja
+U+767D-U+767E	zh-hans	ja
+U+7684	zh-hans	ja	zh-hant
+U+7686-U+7687	zh-hans	ja	zh-hant
+U+76AE	zh-hans	ja	zh-hant
+U+76BF	ja
+U+76C6	ja
+U+76CA	zh-hans	ja	zh-hant
+U+76D7	ja
+U+76DB	zh-hans	ja
+U+76DF	zh-hans	ja	zh-hant
+U+76E3-U+76E4	ja	zh-hant
+U+76EE	zh-hans	ja	zh-hant
+U+76F2	ja	zh-hant
+U+76F4	zh-hans	ja	zh-hant
+U+76F8	zh-hans	ja	zh-hant
+U+76FE	zh-hans	ja	zh-hant
+U+7701	zh-hans	ja	zh-hant
+U+7709	zh-hans	ja	zh-hant
+U+770B-U+770C	ja
+U+771F-U+7720	zh-hans	ja	zh-hant
+U+773A	ja
+U+773C	zh-hans	ja	zh-hant
+U+7740	zh-hans	ja
+U+7761	zh-hans	ja	zh-hant
+U+7763	zh-hans	ja	zh-hant
+U+7766	ja
+U+77AC-U+77AD	ja
+U+77B3	ja
+U+77DB	zh-hans	ja	zh-hant
+U+77E2	ja
+U+77E5	zh-hans	ja	zh-hant
+U+77ED	zh-hans	ja	zh-hant
+U+77EF	ja
+U+77F3	zh-hans	ja	zh-hant
+U+7802	ja	zh-hant
+U+7814-U+7815	ja
+U+7832	ja	zh-hant
+U+7834	zh-hans	ja	zh-hant
+U+785D	ja
+U+786B-U+786C	ja
+U+7881	ja
+U+7891	ja
+U+78BA	ja	zh-hant
+U+78C1	zh-hans	ja	zh-hant
+U+78E8	zh-hans	ja	zh-hant
+U+7901	ja
+U+790E	ja	zh-hant
+U+793A	zh-hans	ja	zh-hant
+U+793C	zh-hans	ja
+U+793E	zh-hans	ja	zh-hant
+U+7948-U+7949	ja
+U+7956	zh-hans	ja
+U+795D-U+795E	zh-hans	ja	zh-hant
+U+7965	zh-hans	ja	zh-hant
+U+7968	zh-hans	ja	zh-hant
+U+796D	ja
+U+7981	zh-hans	ja	zh-hant
+U+7985	zh-hans	ja
+U+798D	ja
+U+798F	zh-hans	ja
+U+79C0-U+79C1	zh-hans	ja	zh-hant
+U+79CB	zh-hans	ja	zh-hant
+U+79D1-U+79D2	zh-hans	ja	zh-hant
+U+79D8	zh-hans	ja	zh-hant
+U+79DF	zh-hans	ja	zh-hant
+U+79E9	zh-hans	ja
+U+79F0	ja
+U+79FB	zh-hans	ja	zh-hant
+U+7A0B	zh-hans	ja	zh-hant
+U+7A0E	ja
+U+7A1A	ja
+U+7A2E	ja	zh-hant
+U+7A32	ja
+U+7A3C-U+7A3D	ja
+U+7A3F-U+7A40	ja
+U+7A42	ja
+U+7A4D	ja
+U+7A4F	ja
+U+7A6B	ja
+U+7A74	ja
+U+7A76	ja	zh-hant
+U+7A7A	ja
+U+7A81	zh-hans	ja	zh-hant
+U+7A83	ja
+U+7A92-U+7A93	ja
+U+7A9F	ja
+U+7AAE-U+7AAF	ja
+U+7ACB	zh-hans	ja	zh-hant
+U+7ADC	ja
+U+7AE0	ja
+U+7AE5	zh-hans	ja	zh-hant
+U+7AEF	zh-hans	ja	zh-hant
+U+7AF6	ja	zh-hant
+U+7AF9	zh-hans	ja	zh-hant
+U+7B11	zh-hans	ja	zh-hant
+U+7B1B	zh-hans	ja	zh-hant
+U+7B26	zh-hans	ja	zh-hant
+U+7B2C	zh-hans	ja	zh-hant
+U+7B46	ja	zh-hant
+U+7B49	zh-hans	ja	zh-hant
+U+7B4B	zh-hans	ja	zh-hant
+U+7B52	ja
+U+7B54	zh-hans	ja	zh-hant
+U+7B56	zh-hans	ja	zh-hant
+U+7B87	ja
+U+7B8B	ja
+U+7B97	zh-hans	ja	zh-hant
+U+7BA1	zh-hans	ja	zh-hant
+U+7BB1	zh-hans	ja	zh-hant
+U+7BB8	ja
+U+7BC0	ja	zh-hant
+U+7BC4	ja	zh-hant
+U+7BC9	ja	zh-hant
+U+7BE4	ja
+U+7C21	ja	zh-hant
+U+7C3F	zh-hans	ja	zh-hant
+U+7C4D	zh-hans	ja
+U+7C60	ja
+U+7C73	zh-hans	ja	zh-hant
+U+7C89	zh-hans	ja	zh-hant
+U+7C8B	ja
+U+7C92	zh-hans	ja
+U+7C97-U+7C98	ja
+U+7C9B	ja
+U+7CA7	ja
+U+7CBE	zh-hans	ja	zh-hant
+U+7CD6	ja
+U+7CE7	ja
+U+7CF8	ja
+U+7CFB	zh-hans	ja	zh-hant
+U+7CFE	ja	zh-hant
+U+7D00	ja	zh-hant
+U+7D04-U+7D05	ja	zh-hant
+U+7D0B	ja
+U+7D0D	ja	zh-hant
+U+7D14	ja	zh-hant
+U+7D19-U+7D1B	ja	zh-hant
+U+7D20-U+7D22	ja
+U+7D2B	zh-hans	ja	zh-hant
+U+7D2F-U+7D30	ja	zh-hant
+U+7D33	ja
+U+7D39-U+7D3A	ja
+U+7D42	ja	zh-hant
+U+7D44	ja	zh-hant
+U+7D4C	ja
+U+7D50	ja	zh-hant
+U+7D5E	ja
+U+7D61	ja	zh-hant
+U+7D66	ja	zh-hant
+U+7D71	ja
+U+7D75-U+7D76	ja
+U+7D79	ja
+U+7D99-U+7D9A	ja
+U+7DAD	ja	zh-hant
+U+7DB1-U+7DB2	ja	zh-hant
+U+7DBB	ja
+U+7DBF	ja
+U+7DCA	ja	zh-hant
+U+7DCF	ja
+U+7DD1-U+7DD2	ja
+U+7DDA	ja	zh-hant
+U+7DE0	ja
+U+7DE8-U+7DE9	ja	zh-hant
+U+7DEF	ja	zh-hant
+U+7DF4	ja	zh-hant
+U+7DFB	ja
+U+7E01	ja
+U+7E04	ja
+U+7E1B	ja	zh-hant
+U+7E26	ja
+U+7E2B	ja
+U+7E2E	ja	zh-hant
+U+7E3E	ja
+U+7E41	zh-hans	ja	zh-hant
+U+7E4A	ja
+U+7E54-U+7E55	ja
+U+7E6D	ja
+U+7E70	ja
+U+7F36	zh-hans	ja
+U+7F6A	zh-hans	ja	zh-hant
+U+7F6E	zh-hans	ja	zh-hant
+U+7F70	ja	zh-hant
+U+7F72	zh-hans	ja	zh-hant
+U+7F75	ja	zh-hant
+U+7F77	ja	zh-hant
+U+7F85	ja	zh-hant
+U+7F8A	zh-hans	ja	zh-hant
+U+7F8E	zh-hans	ja	zh-hant
+U+7F9E	zh-hans	ja	zh-hant
+U+7FA4	zh-hans	ja	zh-hant
+U+7FA8-U+7FA9	ja
+U+7FBD	zh-hans	ja	zh-hant
+U+7FC1	zh-hans	ja	zh-hant
+U+7FCC	ja
+U+7FD2	ja	zh-hant
+U+7FFB-U+7FFC	zh-hans	ja	zh-hant
+U+8001	ja
+U+8003	zh-hans	ja	zh-hant
+U+8005	zh-hans	ja	zh-hant
+U+8010	zh-hans	ja	zh-hant
+U+8015	ja
+U+8017	zh-hans	ja	zh-hant
+U+8033	zh-hans	ja	zh-hant
+U+8056	ja	zh-hant
+U+805E	ja	zh-hant
+U+8074	ja
+U+8077	ja	zh-hant
+U+8089	zh-hans	ja	zh-hant
+U+808C	ja
+U+8096	zh-hans	ja
+U+8098	ja
+U+809D	ja
+U+80A1-U+80A2	ja
+U+80A5	ja	zh-hant
+U+80A9-U+80AA	ja
+U+80AF	zh-hans	ja	zh-hant
+U+80B2	zh-hans	ja	zh-hant
+U+80BA	ja
+U+80C3	ja
+U+80C6	zh-hans	ja
+U+80CC	zh-hans	ja	zh-hant
+U+80CE	zh-hans	ja	zh-hant
+U+80DE	zh-hans	ja	zh-hant
+U+80F4	ja
+U+80F8	zh-hans	ja	zh-hant
+U+80FD	zh-hans	ja	zh-hant
+U+8102	ja
+U+8105	ja
+U+8107-U+8108	ja
+U+810A	ja
+U+811A	ja
+U+8131	zh-hans	ja
+U+8133	ja
+U+814E	ja
+U+8150	zh-hans	ja
+U+8155	ja
+U+816B	ja
+U+8170	zh-hans	ja	zh-hant
+U+8178-U+817A	ja
+U+819A	ja
+U+819C-U+819D	ja
+U+81A8	ja
+U+81B3	ja
+U+81C6	ja
+U+81D3	ja
+U+81E3	zh-hans	ja	zh-hant
+U+81E8	ja	zh-hant
+U+81EA	zh-hans	ja	zh-hant
+U+81ED	zh-hans	ja	zh-hant
+U+81F3-U+81F4	zh-hans	ja	zh-hant
+U+81FC	ja
+U+8208	ja
+U+820C	ja
+U+820E	ja
+U+8217	ja
+U+821E-U+821F	zh-hans	ja	zh-hant
+U+822A	zh-hans	ja	zh-hant
+U+822C	zh-hans	ja	zh-hant
+U+8236-U+8237	ja
+U+8239	zh-hans	ja	zh-hant
+U+8247	ja
+U+8266	ja	zh-hant
+U+826F	zh-hans	ja	zh-hant
+U+8272	zh-hans	ja	zh-hant
+U+8276	ja
+U+828B	ja
+U+829D	zh-hans	ja	zh-hant
+U+82AF	ja
+U+82B1	zh-hans	ja	zh-hant
+U+82B3	zh-hans	ja	zh-hant
+U+82B8	ja
+U+82BD	ja
+U+82D7	zh-hans	ja
+U+82DB	ja
+U+82E5-U+82E6	zh-hans	ja	zh-hant
+U+82F1	zh-hans	ja	zh-hant
+U+8302	ja
+U+830E	ja
+U+8328	zh-hans	ja
+U+8336	zh-hans	ja	zh-hant
+U+8349	zh-hans	ja	zh-hant
+U+8352	zh-hans	ja	zh-hant
+U+8358	ja
+U+8377	zh-hans	ja	zh-hant
+U+83CA	ja
+U+83CC	ja
+U+83D3	ja
+U+83DC	zh-hans	ja	zh-hant
+U+83EF	ja	zh-hant
+U+840E	ja
+U+843D	zh-hans	ja	zh-hant
+U+8449	ja	zh-hant
+U+8457	zh-hans	ja	zh-hant
+U+845B	zh-hans	ja	zh-hant
+U+846C	ja
+U+84B8	ja
+U+84C4	ja
+U+84CB	ja	zh-hant
+U+8511	zh-hans	ja
+U+8535	ja
+U+853D	ja
+U+8584	zh-hans	ja	zh-hant
+U+85A6	ja	zh-hant
+U+85AA-U+85AC	ja
+U+85CD	ja	zh-hant
+U+85E4	zh-hans	ja
+U+85E9	ja
+U+85FB	ja
+U+864E	zh-hans	ja	zh-hant
+U+8650	ja
+U+865A	ja
+U+865C	ja
+U+865E	ja
+U+866B	zh-hans	ja
+U+8679	zh-hans	ja
+U+868A	ja
+U+8695	ja
+U+86C7	zh-hans	ja	zh-hant
+U+86CD	ja
+U+86EE	zh-hans	ja
+U+8702	zh-hans	ja	zh-hant
+U+871C	zh-hans	ja	zh-hant
+U+878D	zh-hans	ja	zh-hant
+U+8840	zh-hans	ja	zh-hant
+U+8846	ja
+U+884C	zh-hans	ja	zh-hant
+U+8853	ja	zh-hant
+U+8857	zh-hans	ja	zh-hant
+U+885B	ja	zh-hant
+U+885D	ja	zh-hant
+U+8861	zh-hans	ja	zh-hant
+U+8863	zh-hans	ja	zh-hant
+U+8868	zh-hans	ja	zh-hant
+U+8870	ja
+U+8877	ja
+U+888B	zh-hans	ja	zh-hant
+U+8896	ja
+U+88AB	zh-hans	ja	zh-hant
+U+88C1-U+88C2	zh-hans	ja	zh-hant
+U+88C5	zh-hans	ja
+U+88CF	ja
+U+88D5	zh-hans	ja	zh-hant
+U+88DC	ja
+U+88F8	ja
+U+88FD-U+88FE	ja
+U+8907	ja	zh-hant
+U+8910	ja
+U+8912	ja
+U+895F	ja
+U+8972	ja
+U+897F	zh-hans	ja	zh-hant
+U+8981	zh-hans	ja	zh-hant
+U+8986-U+8987	ja
+U+898B	ja	zh-hant
+U+898F	ja	zh-hant
+U+8996	ja	zh-hant
+U+899A	ja
+U+89A7	ja
+U+89AA	ja	zh-hant
+U+89B3	ja
+U+89D2	zh-hans	ja	zh-hant
+U+89E3	zh-hans	ja	zh-hant
+U+89E6	ja
+U+8A00	zh-hans	ja	zh-hant
+U+8A02-U+8A03	ja
+U+8A08	ja	zh-hant
+U+8A0E	ja	zh-hant
+U+8A13	ja	zh-hant
+U+8A17-U+8A18	ja	zh-hant
+U+8A1F	ja
+U+8A2A	ja	zh-hant
+U+8A2D	ja	zh-hant
+U+8A31	ja	zh-hant
+U+8A33-U+8A34	ja
+U+8A3A	ja
+U+8A3C	ja
+U+8A50	ja
+U+8A54-U+8A55	ja
+U+8A5E	ja	zh-hant
+U+8A60	ja
+U+8A63	ja
+U+8A66	ja	zh-hant
+U+8A69	ja	zh-hant
+U+8A6E	ja
+U+8A70-U+8A73	ja
+U+8A87	ja	zh-hant
+U+8A89	zh-hans	ja
+U+8A8C-U+8A8D	ja	zh-hant
+U+8A93	zh-hans	ja	zh-hant
+U+8A95	ja	zh-hant
+U+8A98	ja
+U+8A9E	ja	zh-hant
+U+8AA0	ja	zh-hant
+U+8AA4	ja	zh-hant
+U+8AAC-U+8AAD	ja
+U+8AB0	ja	zh-hant
+U+8AB2	ja	zh-hant
+U+8ABF	ja	zh-hant
+U+8AC7	ja	zh-hant
+U+8ACB	ja	zh-hant
+U+8AD6	ja	zh-hant
+U+8AE6-U+8AE7	ja
+U+8AED-U+8AEE	ja
+U+8AF8	ja	zh-hant
+U+8AFE	ja	zh-hant
+U+8B00-U+8B01	ja
+U+8B04	ja
+U+8B0E	ja
+U+8B19	ja
+U+8B1B	ja	zh-hant
+U+8B1D	ja	zh-hant
+U+8B21	ja
+U+8B39	ja
+U+8B58	ja	zh-hant
+U+8B5C	ja	zh-hant
+U+8B66	zh-hans	ja	zh-hant
+U+8B70	ja
+U+8B72	ja
+U+8B77	ja	zh-hant
+U+8C37	zh-hans	ja	zh-hant
+U+8C46	zh-hans	ja	zh-hant
+U+8C4A	ja
+U+8C5A	ja
+U+8C61	zh-hans	ja	zh-hant
+U+8C6A	zh-hans	ja	zh-hant
+U+8C8C	zh-hans	ja	zh-hant
+U+8C9D-U+8C9E	ja	zh-hant
+U+8CA0-U+8CA2	ja	zh-hant
+U+8CA7-U+8CAC	ja
+U+8CAF	ja
+U+8CB4	ja	zh-hant
+U+8CB7-U+8CB8	ja
+U+8CBB-U+8CBC	ja	zh-hant
+U+8CBF-U+8CC0	ja
+U+8CC2-U+8CC4	ja
+U+8CC7	ja
+U+8CCA	ja
+U+8CD3	ja	zh-hant
+U+8CDB-U+8CDC	ja
+U+8CDE	ja	zh-hant
+U+8CE0	ja
+U+8CE2	ja
+U+8CE6	ja	zh-hant
+U+8CEA	ja	zh-hant
+U+8CED	ja	zh-hant
+U+8CFC	ja
+U+8D08	ja	zh-hant
+U+8D64	zh-hans	ja	zh-hant
+U+8D66	ja
+U+8D70	zh-hans	ja	zh-hant
+U+8D74	ja
+U+8D77	zh-hans	ja	zh-hant
+U+8D85	zh-hans	ja	zh-hant
+U+8D8A	ja	zh-hant
+U+8DA3	zh-hans	ja	zh-hant
+U+8DB3	zh-hans	ja	zh-hant
+U+8DDD	zh-hans	ja	zh-hant
+U+8DE1	ja	zh-hant
+U+8DEF	zh-hans	ja	zh-hant
+U+8DF3	zh-hans	ja	zh-hant
+U+8DF5	ja
+U+8E0A	ja
+U+8E0F	zh-hans	ja	zh-hant
+U+8E2A	ja
+U+8E74	ja
+U+8E8D	ja	zh-hant
+U+8EAB	zh-hans	ja	zh-hant
+U+8ECA	ja	zh-hant
+U+8ECC-U+8ECD	ja	zh-hant
+U+8ED2	ja	zh-hant
+U+8EDF	ja	zh-hant
+U+8EE2	ja
+U+8EF8	ja
+U+8EFD	ja
+U+8F03	ja	zh-hant
+U+8F09	ja	zh-hant
+U+8F1D	ja	zh-hant
+U+8F29-U+8F2A	ja	zh-hant
+U+8F38	ja	zh-hant
+U+8F44	ja
+U+8F9B	zh-hans	ja	zh-hant
+U+8F9E	zh-hans	ja
+U+8FA3	ja
+U+8FB1-U+8FB2	ja
+U+8FBA	ja
+U+8FBC	ja
+U+8FC5	zh-hans	ja	zh-hant
+U+8FCE	zh-hans	ja	zh-hant
+U+8FD1	ja	zh-hant
+U+8FD4	zh-hans	ja	zh-hant
+U+8FEB	ja
+U+8FED	ja
+U+8FF0	zh-hans	ja	zh-hant
+U+8FF7	zh-hans	ja	zh-hant
+U+8FFD	zh-hans	ja	zh-hant
+U+9000-U+9001	ja	zh-hant
+U+9003	ja	zh-hant
+U+9006	zh-hans	ja	zh-hant
+U+900F-U+9010	zh-hans	ja	zh-hant
+U+9013-U+9014	ja
+U+901A	ja
+U+901D	zh-hans	ja	zh-hant
+U+901F-U+9020	zh-hans	ja	zh-hant
+U+9023	ja
+U+902E	ja
+U+9031-U+9032	ja	zh-hant
+U+9038	zh-hans	ja	zh-hant
+U+9042	ja
+U+9045	ja
+U+9047	zh-hans	ja	zh-hant
+U+904A-U+904B	ja	zh-hant
+U+904D-U+904E	ja	zh-hant
+U+9053-U+9055	ja	zh-hant
+U+905C	ja	zh-hant
+U+9060-U+9061	ja
+U+9063	ja
+U+9069	ja	zh-hant
+U+906D-U+906E	zh-hans	ja	zh-hant
+U+9075	zh-hans	ja
+U+9077-U+9078	ja	zh-hant
+U+907A	ja	zh-hant
+U+907F	ja
+U+9084	ja	zh-hant
+U+90A3	zh-hans	ja	zh-hant
+U+90A6	zh-hans	ja	zh-hant
+U+90AA	zh-hans	ja	zh-hant
+U+90B8	ja
+U+90CA	ja
+U+90CE	zh-hans	ja	zh-hant
+U+90E1	ja
+U+90E8	zh-hans	ja	zh-hant
+U+90ED	zh-hans	ja	zh-hant
+U+90F5	ja	zh-hant
+U+90F7	ja
+U+90FD	zh-hans	ja	zh-hant
+U+914C-U+914E	ja
+U+9152	zh-hans	ja	zh-hant
+U+9154	ja
+U+9162	ja
+U+916A	ja
+U+916C	ja
+U+9175	ja
+U+9177-U+9178	zh-hans	ja	zh-hant
+U+9192	zh-hans	ja	zh-hant
+U+919C	ja	zh-hant
+U+91B8	ja
+U+91C7-U+91C8	ja
+U+91CC-U+91CF	zh-hans	ja
+U+91D1	zh-hans	ja	zh-hant
+U+91DC-U+91DD	ja
+U+91E3	ja	zh-hant
+U+920D	ja
+U+9234	ja	zh-hant
+U+9244	ja
+U+925B	ja
+U+9262	ja	zh-hant
+U+9271	ja
+U+9280	ja	zh-hant
+U+9283	ja
+U+9285	ja	zh-hant
+U+9298	ja	zh-hant
+U+92AD	ja
+U+92ED	ja
+U+92F3	ja
+U+92FC	ja	zh-hant
+U+9320	ja
+U+9326	ja	zh-hant
+U+932C	ja
+U+932E-U+932F	ja
+U+9332	ja
+U+934B	ja	zh-hant
+U+935B	ja
+U+9375	ja	zh-hant
+U+938C	ja
+U+9396	ja	zh-hant
+U+93AE	ja	zh-hant
+U+93E1	ja	zh-hant
+U+9418	ja	zh-hant
+U+9451	ja	zh-hant
+U+9577	ja	zh-hant
+U+9580	ja	zh-hant
+U+9589	ja	zh-hant
+U+958B	ja	zh-hant
+U+9591	ja
+U+9593	ja
+U+95A2-U+95A3	ja
+U+95A5	ja
+U+95B2	ja
+U+95C7	ja
+U+95D8	ja
+U+961C	ja
+U+962A	ja
+U+9632	ja	zh-hant
+U+963B	zh-hans	ja	zh-hant
+U+9644	ja	zh-hant
+U+964D	zh-hans	ja	zh-hant
+U+9650	zh-hans	ja	zh-hant
+U+965B	ja
+U+9662-U+9665	ja
+U+966A	ja	zh-hant
+U+9670	ja	zh-hant
+U+9673	ja	zh-hant
+U+9675-U+9676	ja
+U+9678	ja
+U+967A	ja
+U+967D	ja	zh-hant
+U+9685-U+9686	ja
+U+968A	ja	zh-hant
+U+968E-U+968F	ja
+U+9694	zh-hans	ja	zh-hant
+U+9699	ja
+U+969B-U+969C	ja	zh-hant
+U+96A0	ja
+U+96A3	ja
+U+96B7	ja
+U+96BB	ja	zh-hant
+U+96C4-U+96C7	ja
+U+96CC	ja
+U+96D1	ja
+U+96E2-U+96E3	ja	zh-hant
+U+96E8	zh-hans	ja	zh-hant
+U+96EA	zh-hans	ja	zh-hant
+U+96F0	ja
+U+96F2	ja	zh-hant
+U+96F6-U+96F7	zh-hans	ja	zh-hant
+U+96FB	ja	zh-hant
+U+9700	zh-hans	ja	zh-hant
+U+9707	zh-hans	ja	zh-hant
+U+970A	ja
+U+971C	ja
+U+9727	ja	zh-hant
+U+9732	zh-hans	ja	zh-hant
+U+9752	zh-hans	ja	zh-hant
+U+9759	zh-hans	ja
+U+975E	zh-hans	ja	zh-hant
+U+9762	zh-hans	ja	zh-hant
+U+9769	zh-hans	ja	zh-hant
+U+9774	ja
+U+97D3	ja	zh-hant
+U+97F3	zh-hans	ja	zh-hant
+U+97FB	ja	zh-hant
+U+97FF	ja	zh-hant
+U+9802-U+9803	ja
+U+9805-U+9806	ja	zh-hant
+U+9808	ja	zh-hant
+U+9810-U+9813	ja
+U+9818	ja
+U+982C-U+982D	ja
+U+983B-U+983C	ja
+U+984C-U+984E	ja
+U+9854-U+9855	ja
+U+9858	ja	zh-hant
+U+985E	ja	zh-hant
+U+9867	ja	zh-hant
+U+98A8	ja	zh-hant
+U+98DB	ja	zh-hant
+U+98DF	ja	zh-hant
+U+98E2	ja
+U+98EF	ja	zh-hant
+U+98F2	ja	zh-hant
+U+98FC-U+98FE	ja
+U+9905	ja	zh-hant
+U+990A	ja	zh-hant
+U+990C	ja
+U+9913	ja
+U+9928	ja	zh-hant
+U+9996	zh-hans	ja	zh-hant
+U+9999	zh-hans	ja	zh-hant
+U+99AC	ja	zh-hant
+U+99C4-U+99C6	ja
+U+99D0	ja	zh-hant
+U+99D2	ja
+U+9A0E	ja	zh-hant
+U+9A12-U+9A13	ja
+U+9A30	ja
+U+9A5A	ja	zh-hant
+U+9AA8	zh-hans	ja	zh-hant
+U+9AB8	ja
+U+9AC4	ja
+U+9AD8	zh-hans	ja	zh-hant
+U+9AEA	ja
+U+9B31	ja	zh-hant
+U+9B3C	zh-hans	ja	zh-hant
+U+9B42	zh-hans	ja
+U+9B45	zh-hans	ja	zh-hant
+U+9B54	zh-hans	ja	zh-hant
+U+9B5A	ja	zh-hant
+U+9BAE	ja	zh-hant
+U+9BE8	ja
+U+9CE5	ja	zh-hant
+U+9CF4	ja
+U+9D8F	ja
+U+9DB4	ja
+U+9E7F	zh-hans	ja	zh-hant
+U+9E93	ja
+U+9E97	ja	zh-hant
+U+9EA6	zh-hans	ja
+U+9EBA-U+9EBB	ja
+U+9EC4	zh-hans	ja
+U+9ED2	ja
+U+9ED9	ja
+U+9F13	zh-hans	ja	zh-hant
+U+9F3B	zh-hans	ja	zh-hant
+U+9F62	ja
+U+FF61-U+FF65	ja
+U+60C-U+60D	ur
+U+61B	ur
+U+61F	ar	ur
+U+621	ur
+U+627-U+628	ur
+U+62A-U+63A	ur
+U+641-U+642	ur
+U+644-U+646	ur
+U+648	ur
+U+66B-U+66C	ur
+U+679	ur
+U+67E	ur
+U+686	ur
+U+688	ur
+U+691	ur
+U+698	ur
+U+6A9	ur
+U+6AF	ur
+U+6BE	ur
+U+6C1	ur
+U+6CC	ur
+U+6D2	ur
+U+6D4	ur
+U+6F0-U+6F9	ur
+U+200E	ar	ur
+U+2011	ur	it
+U+AB	de	es	it	ar	fr
+U+BB	de	es	it	ar	fr
+U+609	ar
+U+60C	ar
+U+61B-U+61C	ar
+U+621-U+63A	ar
+U+641-U+652	ar
+U+660-U+66C	ar
+U+670	ar
+U+A1	es
+U+BF	es
+U+C1	es
+U+C9	es
+U+CD	es
+U+D1	es
+U+D3	es
+U+DA	es
+U+DC	de	es
+U+E1	es
+U+E9	es
+U+ED	es
+U+F1	es
+U+F3	es
+U+FA	es
+U+FC	de	es
+U+61-U+7D	it	de
+U+C0	it	fr
+U+C8-U+C9	it
+U+CC	it
+U+D2-U+D3	it
+U+D9	it	fr
+U+E0	it	fr
+U+E8-U+E9	it
+U+EC	it
+U+F2-U+F3	it
+U+F9	it	fr
+U+2014	it
+U+2019	it	fr
+U+C4	de
+U+D6	de
+U+DF	de
+U+E4	de
+U+F6	de
+U+2018	de	ru
+U+201A	de	ru
+U+201C	de	ru
+U+201E	de	ru
+U+401	ru
+U+410-U+44F	ru
+U+451	ru
+U+B2-U+B3	fr
+U+C2	fr
+U+C6-U+CB	fr
+U+CE-U+CF	fr
+U+D4	fr
+U+DB-U+DC	fr
+U+E2	fr
+U+E6-U+EB	fr
+U+EE-U+EF	fr
+U+F4	fr
+U+FB-U+FC	fr
+U+FF	fr
+U+152-U+153	fr
+U+178	fr
+U+2B3	fr
+U+2E2	fr
+U+1D48-U+1D49	fr
+U+202F-U+2030	fr
+U+2212	fr
+U+4E07-U+4E0E	zh-hans
+U+4E11	zh-hans	zh-hant
+U+4E13-U+4E14	zh-hans
+U+4E18-U+4E1A	zh-hans
+U+4E1C-U+4E1D	zh-hans
+U+4E22	zh-hans
+U+4E24-U+4E25	zh-hans
+U+4E27	zh-hans
+U+4E2A	zh-hans
+U+4E30	zh-hans
+U+4E34	zh-hans
+U+4E38-U+4E3B	zh-hans
+U+4E3D-U+4E3E	zh-hans
+U+4E43	zh-hans	zh-hant
+U+4E48-U+4E49	zh-hans
+U+4E4B-U+4E50	zh-hans
+U+4E54	zh-hans
+U+4E56	zh-hans	zh-hant
+U+4E58-U+4E59	zh-hans	zh-hant
+U+4E5D	zh-hans	zh-hant
+U+4E5F-U+4E61	zh-hans
+U+4E66	zh-hans
+U+4E70-U+4E71	zh-hans
+U+4E8E-U+4E8F	zh-hans
+U+4E91-U+4E92	zh-hans	zh-hant
+U+4E9A-U+4E9B	zh-hans
+U+4EA4-U+4EA8	zh-hans
+U+4EAB-U+4EAC	zh-hans
+U+4EAE	zh-hans
+U+4EB2	zh-hans
+U+4EBF-U+4EC1	zh-hans
+U+4EC5	zh-hans
+U+4EC7	zh-hans	zh-hant
+U+4ECD-U+4ECE	zh-hans
+U+4ED4	zh-hans	zh-hant
+U+4ED6	zh-hans	zh-hant
+U+4EEA	zh-hans
+U+4EEC	zh-hans
+U+4EF6-U+4EF7	zh-hans
+U+4EFD	zh-hans	zh-hant
+U+4EFF	zh-hans
+U+4F0A	zh-hans	zh-hant
+U+4F0D	zh-hans	zh-hant
+U+4F0F-U+4F11	zh-hans
+U+4F17-U+4F1A	zh-hans
+U+4F1F-U+4F20	zh-hans
+U+4F24	zh-hans
+U+4F26	zh-hans
+U+4F2F-U+4F30	zh-hans	zh-hant
+U+4F3C-U+4F3D	zh-hans	zh-hant
+U+4F4D-U+4F51	zh-hans
+U+4F5B-U+4F5C	zh-hans	zh-hant
+U+4F60	zh-hans	zh-hant
+U+4F64	zh-hans
+U+4F69	zh-hans	zh-hant
+U+4FA0	zh-hans
+U+4FA6-U+4FA8	zh-hans
+U+4FAC	zh-hans
+U+4FAF	zh-hans	zh-hant
+U+4FB5	zh-hans	zh-hant
+U+4FC3-U+4FC4	zh-hans
+U+4FE9	zh-hans
+U+4FF1	zh-hans	zh-hant
+U+4FFE	zh-hans	zh-hant
+U+5019-U+501A	zh-hans	zh-hant
+U+5026	zh-hans
+U+503C	zh-hans	zh-hant
+U+503E	zh-hans
+U+5047	zh-hans	zh-hant
+U+504C	zh-hans
+U+505A	zh-hans	zh-hant
+U+5076-U+5077	zh-hans
+U+50A8	zh-hans
+U+50BB	zh-hans	zh-hant
+U+513F	zh-hans
+U+5141	zh-hans	zh-hant
+U+5151	zh-hans
+U+5154	zh-hans	zh-hant
+U+516B-U+516E	zh-hans	zh-hant
+U+5170-U+5171	zh-hans
+U+5173-U+5179	zh-hans
+U+517B-U+517D	zh-hans
+U+5185	zh-hans
+U+5188	zh-hans
+U+518C-U+518D	zh-hans
+U+519B-U+519C	zh-hans
+U+51B0	zh-hans	zh-hant
+U+51B2-U+51B3	zh-hans
+U+51B5	zh-hans
+U+51B7	zh-hans	zh-hant
+U+51CC	zh-hans	zh-hant
+U+51CF	zh-hans
+U+51E0-U+51E1	zh-hans
+U+51E4	zh-hans
+U+51ED	zh-hans
+U+51EF-U+51F0	zh-hans
+U+51FA-U+51FB	zh-hans
+U+51FD	zh-hans	zh-hant
+U+5206-U+5207	zh-hans	zh-hant
+U+5211-U+5212	zh-hans
+U+5217-U+521B	zh-hans
+U+5224	zh-hans
+U+522B	zh-hans
+U+5236-U+5238	zh-hans
+U+523A-U+523B	zh-hans	zh-hant
+U+5242	zh-hans
+U+5251	zh-hans
+U+5267	zh-hans
+U+5269-U+526A	zh-hans	zh-hant
+U+526F	zh-hans	zh-hant
+U+529D-U+52A1	zh-hans
+U+52A8-U+52AB	zh-hans
+U+52B1-U+52B3	zh-hans
+U+52BF	zh-hans
+U+52CB	zh-hans
+U+52D2	zh-hans	zh-hant
+U+52FE-U+52FF	zh-hans
+U+5305-U+5306	zh-hans
+U+5308	zh-hans	zh-hant
+U+5319	zh-hans
+U+534E-U+534F	zh-hans
+U+5352-U+5353	zh-hans
+U+5355-U+5357	zh-hans
+U+5360-U+5362	zh-hans
+U+536B	zh-hans
+U+536F-U+5371	zh-hans	zh-hant
+U+5373-U+5374	zh-hans
+U+5377	zh-hans	zh-hant
+U+5382	zh-hans
+U+5384-U+5386	zh-hans
+U+5389	zh-hans
+U+538B-U+538D	zh-hans
+U+53BF	zh-hans
+U+53C8-U+53CD	zh-hans
+U+53D1	zh-hans
+U+53D6-U+53D9	zh-hans
+U+53E3-U+53E6	zh-hans
+U+53EA-U+53ED	zh-hans	zh-hant
+U+53EF-U+53F0	zh-hans	zh-hant
+U+53F2-U+53F3	zh-hans	zh-hant
+U+53F6-U+53F9	zh-hans
+U+5403-U+5404	zh-hans	zh-hant
+U+5408-U+540A	zh-hans	zh-hant
+U+540C-U+540E	zh-hans	zh-hant
+U+5410-U+5411	zh-hans
+U+5413	zh-hans
+U+5417	zh-hans
+U+541D	zh-hans
+U+5426-U+5427	zh-hans	zh-hant
+U+542B-U+542C	zh-hans
+U+542F	zh-hans
+U+5435	zh-hans	zh-hant
+U+543B	zh-hans
+U+543E	zh-hans	zh-hant
+U+5440	zh-hans	zh-hant
+U+5446	zh-hans	zh-hant
+U+5448	zh-hans
+U+544A	zh-hans	zh-hant
+U+5450	zh-hans
+U+5458	zh-hans
+U+545C	zh-hans
+U+5462	zh-hans	zh-hant
+U+5466	zh-hans
+U+5475	zh-hans	zh-hant
+U+5496	zh-hans	zh-hant
+U+54A6-U+54A8	zh-hans
+U+54AA	zh-hans	zh-hant
+U+54AC	zh-hans	zh-hant
+U+54AF	zh-hans
+U+54B1	zh-hans	zh-hant
+U+54C7-U+54C9	zh-hans	zh-hant
+U+54CD-U+54CE	zh-hans
+U+54DF	zh-hans
+U+54E5-U+54E6	zh-hans	zh-hant
+U+54E9-U+54EA	zh-hans	zh-hant
+U+54ED	zh-hans	zh-hant
+U+5509	zh-hans	zh-hant
+U+5524	zh-hans
+U+552C	zh-hans	zh-hant
+U+552E-U+552F	zh-hans	zh-hant
+U+5537	zh-hans
+U+554A	zh-hans	zh-hant
+U+5561	zh-hans	zh-hant
+U+5565-U+5566	zh-hans	zh-hant
+U+556A	zh-hans	zh-hant
+U+5580	zh-hans	zh-hant
+U+5582	zh-hans	zh-hant
+U+5587	zh-hans	zh-hant
+U+558A	zh-hans	zh-hant
+U+558F	zh-hans
+U+5594	zh-hans	zh-hant
+U+55B5	zh-hans	zh-hant
+U+55B7	zh-hans
+U+55BB	zh-hans
+U+55D2	zh-hans
+U+55E8	zh-hans	zh-hant
+U+55EF	zh-hans	zh-hant
+U+5609	zh-hans	zh-hant
+U+561B	zh-hans	zh-hant
+U+5634	zh-hans	zh-hant
+U+563B	zh-hans	zh-hant
+U+563F	zh-hans	zh-hant
+U+56DB	zh-hans	zh-hant
+U+56E2	zh-hans
+U+56ED	zh-hans
+U+56F4	zh-hans
+U+56FD-U+56FE	zh-hans
+U+5706	zh-hans
+U+5708	zh-hans	zh-hant
+U+5723	zh-hans
+U+5728	zh-hans	zh-hant
+U+572D	zh-hans	zh-hant
+U+5733	zh-hans
+U+573A	zh-hans
+U+573E	zh-hans	zh-hant
+U+5740	zh-hans	zh-hant
+U+574E	zh-hans	zh-hant
+U+5750-U+5751	zh-hans
+U+5757	zh-hans
+U+575A-U+575C	zh-hans
+U+5761	zh-hans	zh-hant
+U+5764	zh-hans	zh-hant
+U+5766	zh-hans	zh-hant
+U+5782-U+5783	zh-hans	zh-hant
+U+5792	zh-hans
+U+57C3	zh-hans	zh-hant
+U+57D4	zh-hans	zh-hant
+U+5806	zh-hans
+U+5821	zh-hans	zh-hant
+U+589E	zh-hans	zh-hant
+U+58E4	zh-hans
+U+58EB-U+58EC	zh-hans	zh-hant
+U+58F0	zh-hans
+U+5904	zh-hans
+U+5907	zh-hans
+U+590D	zh-hans
+U+591F	zh-hans
+U+5925	zh-hans	zh-hant
+U+5934	zh-hans
+U+5937-U+593A	zh-hans
+U+594B	zh-hans
+U+5956-U+5957	zh-hans
+U+5976	zh-hans	zh-hant
+U+5979	zh-hans	zh-hant
+U+5982	zh-hans	zh-hant
+U+5987-U+5988	zh-hans
+U+59AE	zh-hans	zh-hant
+U+59C6	zh-hans	zh-hant
+U+59CA-U+59CB	zh-hans	zh-hant
+U+59D0-U+59D1	zh-hans	zh-hant
+U+5A03-U+5A04	zh-hans
+U+5A1C	zh-hans
+U+5A1F	zh-hans
+U+5A31	zh-hans
+U+5AE9	zh-hans	zh-hant
+U+5B54-U+5B55	zh-hans
+U+5B57-U+5B59	zh-hans
+U+5B5C-U+5B5D	zh-hans
+U+5B5F	zh-hans	zh-hant
+U+5B69	zh-hans	zh-hant
+U+5B81	zh-hans
+U+5B83	zh-hans	zh-hant
+U+5B8B-U+5B8C	zh-hans	zh-hant
+U+5B8F	zh-hans	zh-hant
+U+5B97-U+5B9E	zh-hans
+U+5BA1-U+5BA4	zh-hans
+U+5BAA	zh-hans
+U+5BB3-U+5BB4	zh-hans
+U+5BB6	zh-hans	zh-hant
+U+5BBD-U+5BBF	zh-hans
+U+5BC4-U+5BC7	zh-hans
+U+5BDD-U+5BDF	zh-hans
+U+5BE8	zh-hans
+U+5BF8-U+5BF9	zh-hans
+U+5BFB-U+5BFC	zh-hans
+U+5BFF	zh-hans
+U+5C01	zh-hans	zh-hant
+U+5C0A	zh-hans
+U+5C0F	zh-hans
+U+5C14	zh-hans
+U+5C16	zh-hans	zh-hant
+U+5C18	zh-hans
+U+5C1D	zh-hans
+U+5C24	zh-hans	zh-hant
+U+5C3A	zh-hans	zh-hant
+U+5C3C-U+5C3E	zh-hans
+U+5C40-U+5C42	zh-hans
+U+5C4B	zh-hans	zh-hant
+U+5C4F	zh-hans	zh-hant
+U+5C60	zh-hans	zh-hant
+U+5C81-U+5C82	zh-hans
+U+5C97-U+5C98	zh-hans
+U+5C9A-U+5C9B	zh-hans
+U+5CE1	zh-hans
+U+5D34	zh-hans	zh-hant
+U+5DEB	zh-hans	zh-hant
+U+5DF1-U+5DF4	zh-hans	zh-hant
+U+5DF7	zh-hans	zh-hant
+U+5E01-U+5E03	zh-hans
+U+5E05	zh-hans
+U+5E08	zh-hans
+U+5E10	zh-hans
+U+5E15-U+5E16	zh-hans	zh-hant
+U+5E26	zh-hans
+U+5E2D-U+5E2E	zh-hans
+U+5E76	zh-hans
+U+5E78	zh-hans
+U+5E7B-U+5E7D	zh-hans
+U+5E7F	zh-hans
+U+5E86	zh-hans
+U+5E93-U+5E95	zh-hans
+U+5E99-U+5E9A	zh-hans
+U+5E9E-U+5E9F	zh-hans
+U+5EB7-U+5EB8	zh-hans	zh-hant
+U+5EC9	zh-hans	zh-hant
+U+5ED6	zh-hans	zh-hant
+U+5F00	zh-hans
+U+5F02-U+5F04	zh-hans
+U+5F0F	zh-hans	zh-hant
+U+5F15	zh-hans	zh-hant
+U+5F17-U+5F18	zh-hans	zh-hant
+U+5F1F-U+5F20	zh-hans
+U+5F25-U+5F26	zh-hans
+U+5F2F	zh-hans
+U+5F39-U+5F3A	zh-hans
+U+5F52-U+5F53	zh-hans
+U+5F55	zh-hans
+U+5F5D	zh-hans
+U+5F6C-U+5F6D	zh-hans	zh-hant
+U+5F77	zh-hans
+U+5F7B-U+5F7C	zh-hans
+U+5F88	zh-hans	zh-hant
+U+5F92	zh-hans
+U+5FAA	zh-hans
+U+5FB5	zh-hans	zh-hant
+U+5FB7	zh-hans	zh-hant
+U+5FC5-U+5FC6	zh-hans
+U+5FE7	zh-hans
+U+5FFD	zh-hans	zh-hant
+U+6000-U+6001	zh-hans
+U+600E	zh-hans	zh-hant
+U+6015-U+6016	zh-hans	zh-hant
+U+6021	zh-hans	zh-hant
+U+603B	zh-hans
+U+6062	zh-hans	zh-hant
+U+606F-U+6070	zh-hans	zh-hant
+U+6076	zh-hans
+U+607C	zh-hans
+U+6084	zh-hans
+U+6089	zh-hans	zh-hant
+U+60A8	zh-hans	zh-hant
+U+60E0	zh-hans
+U+60EF	zh-hans
+U+60F9	zh-hans	zh-hant
+U+6108-U+6109	zh-hans	zh-hant
+U+611A	zh-hans
+U+6127	zh-hans
+U+6162	zh-hans
+U+6167	zh-hans	zh-hant
+U+61C2	zh-hans	zh-hant
+U+61D2	zh-hans
+U+6208	zh-hans	zh-hant
+U+620A	zh-hans	zh-hant
+U+620C	zh-hans	zh-hant
+U+620F-U+6212	zh-hans
+U+6216	zh-hans	zh-hant
+U+6218	zh-hans
+U+622A	zh-hans	zh-hant
+U+6237	zh-hans
+U+623F-U+6241	zh-hans	zh-hant
+U+624D-U+624E	zh-hans	zh-hant
+U+6251	zh-hans
+U+6258	zh-hans	zh-hant
+U+6263	zh-hans	zh-hant
+U+6267	zh-hans
+U+6269	zh-hans
+U+626B-U+626F	zh-hans
+U+627E-U+6280	zh-hans	zh-hant
+U+6293	zh-hans	zh-hant
+U+62A2	zh-hans
+U+62A4-U+62A5	zh-hans
+U+62AB-U+62AC	zh-hans	zh-hant
+U+62BD	zh-hans	zh-hant
+U+62C5-U+62C6	zh-hans
+U+62D2	zh-hans	zh-hant
+U+62D4	zh-hans	zh-hant
+U+62D6	zh-hans	zh-hant
+U+62D8	zh-hans
+U+62DB-U+62DC	zh-hans	zh-hant
+U+62DF	zh-hans
+U+62E5-U+62E6	zh-hans
+U+62E8-U+62E9	zh-hans
+U+62EC	zh-hans	zh-hant
+U+62F7	zh-hans
+U+62FC	zh-hans	zh-hant
+U+62FE-U+62FF	zh-hans	zh-hant
+U+6309	zh-hans	zh-hant
+U+6316	zh-hans	zh-hant
+U+631D	zh-hans
+U+6321	zh-hans
+U+6324-U+6325	zh-hans
+U+632A	zh-hans	zh-hant
+U+633A	zh-hans	zh-hant
+U+6350	zh-hans	zh-hant
+U+635F	zh-hans
+U+6361-U+6362	zh-hans
+U+6377	zh-hans	zh-hant
+U+6388-U+6389	zh-hans	zh-hant
+U+63A2	zh-hans
+U+63A7-U+63AA	zh-hans
+U+63B8	zh-hans
+U+63D2	zh-hans	zh-hant
+U+641C	zh-hans	zh-hant
+U+641E	zh-hans	zh-hant
+U+6444	zh-hans
+U+6446	zh-hans
+U+644A	zh-hans
+U+6454	zh-hans
+U+6478	zh-hans	zh-hant
+U+6492	zh-hans	zh-hant
+U+649E	zh-hans	zh-hant
+U+64AD	zh-hans	zh-hant
+U+64CD-U+64CE	zh-hans	zh-hant
+U+6536	zh-hans	zh-hant
+U+6548	zh-hans	zh-hant
+U+654C	zh-hans
+U+655D	zh-hans	zh-hant
+U+6566	zh-hans	zh-hant
+U+6572	zh-hans
+U+6574	zh-hans
+U+658B	zh-hans
+U+6590	zh-hans	zh-hant
+U+65A5	zh-hans
+U+65AD	zh-hans
+U+65AF-U+65B0	zh-hans	zh-hant
+U+65BC-U+65BD	zh-hans	zh-hant
+U+65C1	zh-hans	zh-hant
+U+65E0	zh-hans
+U+65ED	zh-hans	zh-hant
+U+65F6	zh-hans
+U+6602	zh-hans	zh-hant
+U+6606	zh-hans
+U+660C	zh-hans	zh-hant
+U+660E-U+660F	zh-hans	zh-hant
+U+6613	zh-hans	zh-hant
+U+6628	zh-hans	zh-hant
+U+663E	zh-hans
+U+6643	zh-hans
+U+664B	zh-hans
+U+6652-U+6653	zh-hans
+U+665A	zh-hans	zh-hant
+U+6668	zh-hans	zh-hant
+U+667A	zh-hans	zh-hant
+U+6682	zh-hans
+U+66F0	zh-hans	zh-hant
+U+66F9	zh-hans
+U+66FC	zh-hans	zh-hant
+U+66FE-U+6700	zh-hans	zh-hant
+U+670B	zh-hans	zh-hant
+U+672F	zh-hans
+U+6735	zh-hans	zh-hant
+U+6740	zh-hans
+U+6742-U+6743	zh-hans
+U+674E	zh-hans	zh-hant
+U+675C	zh-hans	zh-hant
+U+6768	zh-hans
+U+676F-U+6770	zh-hans
+U+6781	zh-hans
+U+6784	zh-hans
+U+67AA-U+67AB	zh-hans
+U+67CF-U+67D0	zh-hans	zh-hant
+U+67E5	zh-hans	zh-hant
+U+67EC	zh-hans	zh-hant
+U+67EF	zh-hans	zh-hant
+U+67F3-U+67F4	zh-hans	zh-hant
+U+6807	zh-hans
+U+680B	zh-hans
+U+680F	zh-hans
+U+6811	zh-hans
+U+6837-U+6839	zh-hans
+U+683C	zh-hans	zh-hant
+U+6846	zh-hans
+U+684C	zh-hans	zh-hant
+U+6863	zh-hans
+U+6865	zh-hans
+U+6881	zh-hans	zh-hant
+U+68A6	zh-hans
+U+68AF-U+68B0	zh-hans	zh-hant
+U+68B5	zh-hans	zh-hant
+U+68C0	zh-hans
+U+68C9	zh-hans	zh-hant
+U+690D	zh-hans	zh-hant
+U+6930	zh-hans	zh-hant
+U+695A	zh-hans	zh-hant
+U+697C	zh-hans
+U+699C	zh-hans	zh-hant
+U+6A31	zh-hans
+U+6A80	zh-hans	zh-hant
+U+6B20-U+6B23	zh-hans
+U+6B49	zh-hans	zh-hant
+U+6B62-U+6B66	zh-hans
+U+6B6A	zh-hans
+U+6B8A-U+6B8B	zh-hans
+U+6BB5	zh-hans	zh-hant
+U+6BC5	zh-hans	zh-hant
+U+6BCD	zh-hans	zh-hant
+U+6BCF	zh-hans	zh-hant
+U+6BD4-U+6BD5	zh-hans
+U+6BEB	zh-hans	zh-hant
+U+6C14	zh-hans
+U+6C1B	zh-hans
+U+6C38	zh-hans	zh-hant
+U+6C42	zh-hans	zh-hant
+U+6C47	zh-hans
+U+6C49	zh-hans
+U+6C5D	zh-hans	zh-hant
+U+6C5F-U+6C61	zh-hans	zh-hant
+U+6C64	zh-hans
+U+6C6A	zh-hans	zh-hant
+U+6C76	zh-hans	zh-hant
+U+6C88-U+6C89	zh-hans	zh-hant
+U+6C9F	zh-hans
+U+6CA1	zh-hans
+U+6CA7	zh-hans
+U+6CB9	zh-hans	zh-hant
+U+6CBB	zh-hans	zh-hant
+U+6CDB	zh-hans
+U+6CFD	zh-hans
+U+6D1B	zh-hans	zh-hant
+U+6D32	zh-hans	zh-hant
+U+6D3D-U+6D3E	zh-hans	zh-hant
+U+6D45	zh-hans
+U+6D4B	zh-hans
+U+6D4E-U+6D4F	zh-hans
+U+6D51	zh-hans
+U+6D53	zh-hans
+U+6D59	zh-hans
+U+6D69-U+6D6A	zh-hans	zh-hant
+U+6D77	zh-hans	zh-hant
+U+6D85	zh-hans
+U+6D88-U+6D89	zh-hans
+U+6D9B	zh-hans
+U+6DA8	zh-hans
+U+6DB5	zh-hans	zh-hant
+U+6DCB	zh-hans
+U+6DD8	zh-hans
+U+6E10	zh-hans
+U+6E23	zh-hans
+U+6E34	zh-hans
+U+6E38	zh-hans	zh-hant
+U+6E7E	zh-hans
+U+6E9C	zh-hans
+U+6EAA	zh-hans
+U+6EE1	zh-hans
+U+6EE5	zh-hans
+U+6EE8	zh-hans
+U+6F02	zh-hans	zh-hant
+U+6F2B	zh-hans	zh-hant
+U+6F58	zh-hans	zh-hant
+U+6F8E	zh-hans
+U+6FB3	zh-hans	zh-hant
+U+6FC0	zh-hans	zh-hant
+U+704C	zh-hans	zh-hant
+U+706D	zh-hans
+U+7075	zh-hans
+U+707F	zh-hans
+U+7089	zh-hans
+U+70AE	zh-hans	zh-hant
+U+70B8-U+70B9	zh-hans
+U+70C2	zh-hans
+U+70E4	zh-hans	zh-hant
+U+70E6-U+70E7	zh-hans
+U+70ED	zh-hans
+U+714C	zh-hans
+U+715E	zh-hans	zh-hant
+U+71D5	zh-hans
+U+722C	zh-hans
+U+7231	zh-hans
+U+7235-U+7238	zh-hans
+U+724C	zh-hans	zh-hant
+U+7261-U+7262	zh-hans
+U+7275	zh-hans
+U+7279-U+727A	zh-hans
+U+72B9	zh-hans
+U+72D0	zh-hans	zh-hant
+U+72D7	zh-hans	zh-hant
+U+72E0	zh-hans	zh-hant
+U+72EC	zh-hans
+U+72EE	zh-hans
+U+72F1	zh-hans
+U+72FC	zh-hans	zh-hant
+U+731B-U+731C	zh-hans	zh-hant
+U+732A	zh-hans
+U+7334	zh-hans	zh-hant
+U+739B	zh-hans
+U+73AB	zh-hans	zh-hant
+U+73AF-U+73B0	zh-hans
+U+73B2	zh-hans	zh-hant
+U+73BB	zh-hans	zh-hant
+U+73C0	zh-hans
+U+73CA	zh-hans	zh-hant
+U+740A	zh-hans
+U+742A	zh-hans	zh-hant
+U+7433-U+7434	zh-hans
+U+743C	zh-hans
+U+7459	zh-hans	zh-hant
+U+745C	zh-hans	zh-hant
+U+745E-U+745F	zh-hans	zh-hant
+U+7470	zh-hans	zh-hant
+U+7476	zh-hans
+U+74DC	zh-hans	zh-hant
+U+751C	zh-hans	zh-hant
+U+7535	zh-hans
+U+7537-U+7538	zh-hans	zh-hant
+U+753B	zh-hans
+U+7545	zh-hans
+U+7586	zh-hans	zh-hant
+U+758F	zh-hans	zh-hant
+U+7597	zh-hans
+U+75AF	zh-hans
+U+75BC	zh-hans	zh-hant
+U+7678	zh-hans	zh-hant
+U+767B	zh-hans
+U+76C8	zh-hans
+U+76D1-U+76D2	zh-hans
+U+76D6	zh-hans
+U+76D8	zh-hans
+U+76FC	zh-hans	zh-hant
+U+770B	zh-hans	zh-hant
+U+775B	zh-hans	zh-hant
+U+77A7	zh-hans	zh-hant
+U+77E3	zh-hans	zh-hant
+U+77F6	zh-hans
+U+7801-U+7802	zh-hans
+U+780D	zh-hans	zh-hant
+U+7814	zh-hans	zh-hant
+U+7840	zh-hans
+U+7855	zh-hans
+U+786C	zh-hans	zh-hant
+U+786E	zh-hans
+U+788D-U+788E	zh-hans
+U+7897	zh-hans	zh-hant
+U+789F	zh-hans	zh-hant
+U+78A7	zh-hans	zh-hant
+U+78B0	zh-hans	zh-hant
+U+78C5	zh-hans
+U+795A	zh-hans
+U+796F	zh-hans
+U+7978	zh-hans
+U+79BB	zh-hans
+U+79CD	zh-hans
+U+79E4	zh-hans	zh-hant
+U+79E6	zh-hans	zh-hant
+U+79EF-U+79F0	zh-hans
+U+7A00	zh-hans
+U+7A0D-U+7A0E	zh-hans
+U+7A23	zh-hans
+U+7A33	zh-hans
+U+7A3F	zh-hans	zh-hant
+U+7A46	zh-hans	zh-hant
+U+7A76-U+7A77	zh-hans
+U+7A79-U+7A7A	zh-hans	zh-hant
+U+7A7F	zh-hans	zh-hant
+U+7A97	zh-hans	zh-hant
+U+7A9D	zh-hans
+U+7AD9	zh-hans	zh-hant
+U+7ADE-U+7AE0	zh-hans
+U+7B14	zh-hans
+U+7B28	zh-hans	zh-hant
+U+7B51	zh-hans
+U+7B79	zh-hans
+U+7B7E	zh-hans
+U+7B80	zh-hans	zh-hant
+U+7BAD	zh-hans	zh-hant
+U+7BC7	zh-hans	zh-hant
+U+7BEE	zh-hans
+U+7C7B	zh-hans
+U+7C97	zh-hans	zh-hant
+U+7CA4	zh-hans
+U+7CB9	zh-hans
+U+7CCA	zh-hans	zh-hant
+U+7CD5-U+7CD6	zh-hans
+U+7CDF	zh-hans	zh-hant
+U+7D20	zh-hans	zh-hant
+U+7D22	zh-hans	zh-hant
+U+7D27	zh-hans
+U+7D2F	zh-hans
+U+7EA2	zh-hans
+U+7EA6-U+7EA7	zh-hans
+U+7EAA	zh-hans
+U+7EAF	zh-hans
+U+7EB2-U+7EB3	zh-hans
+U+7EB5	zh-hans
+U+7EB7-U+7EB8	zh-hans
+U+7EBD	zh-hans
+U+7EBF	zh-hans
+U+7EC3-U+7EC4	zh-hans
+U+7EC6-U+7EC8	zh-hans
+U+7ECD	zh-hans
+U+7ECF	zh-hans
+U+7ED3	zh-hans
+U+7ED5	zh-hans
+U+7ED8-U+7ED9	zh-hans
+U+7EDC-U+7EDD	zh-hans
+U+7EDF	zh-hans
+U+7EE7	zh-hans
+U+7EE9-U+7EEA	zh-hans
+U+7EED	zh-hans
+U+7EF4-U+7EF5	zh-hans
+U+7EFC	zh-hans
+U+7EFF	zh-hans
+U+7F05	zh-hans
+U+7F13	zh-hans
+U+7F16	zh-hans
+U+7F18	zh-hans
+U+7F20	zh-hans
+U+7F29	zh-hans
+U+7F34	zh-hans
+U+7F38	zh-hans	zh-hant
+U+7F3A	zh-hans	zh-hant
+U+7F50-U+7F51	zh-hans
+U+7F55	zh-hans	zh-hant
+U+7F57	zh-hans
+U+7F5A	zh-hans
+U+7F62	zh-hans
+U+7FAF	zh-hans
+U+7FC5	zh-hans
+U+7FD4	zh-hans	zh-hant
+U+7FD8	zh-hans
+U+7FE0	zh-hans
+U+7FF0	zh-hans	zh-hant
+U+8000-U+8001	zh-hans	zh-hant
+U+800C-U+800D	zh-hans	zh-hant
+U+8036	zh-hans	zh-hant
+U+804A	zh-hans	zh-hant
+U+804C	zh-hans
+U+8054	zh-hans
+U+8058	zh-hans
+U+805A	zh-hans	zh-hant
+U+806A	zh-hans
+U+809A	zh-hans	zh-hant
+U+80A1	zh-hans	zh-hant
+U+80A4-U+80A5	zh-hans
+U+80A9	zh-hans	zh-hant
+U+80C1	zh-hans
+U+80D6	zh-hans	zh-hant
+U+80DC	zh-hans
+U+80E1	zh-hans	zh-hant
+U+80F6	zh-hans
+U+8106	zh-hans	zh-hant
+U+8111	zh-hans
+U+8138	zh-hans
+U+814A	zh-hans
+U+8153	zh-hans
+U+8179	zh-hans
+U+817E-U+817F	zh-hans
+U+81C2	zh-hans
+U+820C-U+820D	zh-hans	zh-hant
+U+8212	zh-hans	zh-hant
+U+8230	zh-hans
+U+827A	zh-hans
+U+827E	zh-hans	zh-hant
+U+8282	zh-hans
+U+8292	zh-hans
+U+82A6	zh-hans
+U+82AC-U+82AD	zh-hans
+U+82CD	zh-hans
+U+82CF	zh-hans
+U+8302-U+8303	zh-hans
+U+832B	zh-hans	zh-hant
+U+8350	zh-hans
+U+8363	zh-hans
+U+836F	zh-hans
+U+8389	zh-hans
+U+838E	zh-hans	zh-hant
+U+83AA-U+83AB	zh-hans
+U+83B1-U+83B2	zh-hans
+U+83B7	zh-hans
+U+83E9	zh-hans	zh-hant
+U+83F2	zh-hans	zh-hant
+U+8404	zh-hans	zh-hant
+U+840D	zh-hans
+U+8424-U+8425	zh-hans
+U+8427-U+8428	zh-hans
+U+8461	zh-hans	zh-hant
+U+8482	zh-hans	zh-hant
+U+848B	zh-hans
+U+8499	zh-hans	zh-hant
+U+84C9	zh-hans
+U+84DD	zh-hans
+U+84EC	zh-hans
+U+8521	zh-hans	zh-hant
+U+85AA	zh-hans
+U+85C9	zh-hans	zh-hant
+U+85CF	zh-hans	zh-hant
+U+8651	zh-hans
+U+867D-U+867E	zh-hans
+U+8681	zh-hans
+U+86CB	zh-hans	zh-hant
+U+86D9	zh-hans	zh-hant
+U+8776	zh-hans	zh-hant
+U+87F9	zh-hans	zh-hant
+U+8822	zh-hans
+U+8865	zh-hans
+U+88AD	zh-hans
+U+88E4	zh-hans
+U+8986	zh-hans	zh-hant
+U+89C1-U+89C2	zh-hans
+U+89C4	zh-hans
+U+89C6	zh-hans
+U+89C8-U+89C9	zh-hans
+U+8BA1-U+8BA2	zh-hans
+U+8BA4	zh-hans
+U+8BA8-U+8BA9	zh-hans
+U+8BAD-U+8BB0	zh-hans
+U+8BB2	zh-hans
+U+8BB7-U+8BB8	zh-hans
+U+8BBA	zh-hans
+U+8BBE-U+8BBF	zh-hans
+U+8BC1	zh-hans
+U+8BC4	zh-hans
+U+8BC6	zh-hans
+U+8BC9	zh-hans
+U+8BCD	zh-hans
+U+8BD1	zh-hans
+U+8BD5	zh-hans
+U+8BD7	zh-hans
+U+8BDA	zh-hans
+U+8BDD-U+8BDE	zh-hans
+U+8BE2	zh-hans
+U+8BE5-U+8BE6	zh-hans
+U+8BED	zh-hans
+U+8BEF	zh-hans
+U+8BF4	zh-hans
+U+8BF7-U+8BF8	zh-hans
+U+8BFA-U+8BFB	zh-hans
+U+8BFE	zh-hans
+U+8C01	zh-hans
+U+8C03	zh-hans
+U+8C05	zh-hans
+U+8C08	zh-hans
+U+8C0A-U+8C0B	zh-hans
+U+8C13	zh-hans
+U+8C1C	zh-hans
+U+8C22	zh-hans
+U+8C28	zh-hans
+U+8C31	zh-hans
+U+8D1D-U+8D1F	zh-hans
+U+8D21-U+8D25	zh-hans
+U+8D27-U+8D2A	zh-hans
+U+8D2D	zh-hans
+U+8D2F	zh-hans
+U+8D31	zh-hans
+U+8D34-U+8D35	zh-hans
+U+8D38-U+8D3A	zh-hans
+U+8D3C	zh-hans
+U+8D3E	zh-hans
+U+8D44	zh-hans
+U+8D4B-U+8D4C	zh-hans
+U+8D4F-U+8D50	zh-hans
+U+8D54	zh-hans
+U+8D56	zh-hans
+U+8D5A-U+8D5B	zh-hans
+U+8D5E	zh-hans
+U+8D60	zh-hans
+U+8D62	zh-hans
+U+8D6B	zh-hans	zh-hant
+U+8D75	zh-hans
+U+8D81	zh-hans
+U+8D8A-U+8D8B	zh-hans
+U+8DC3	zh-hans
+U+8DCC	zh-hans	zh-hant
+U+8DD1	zh-hans	zh-hant
+U+8DDF	zh-hans	zh-hant
+U+8E22	zh-hans	zh-hant
+U+8E29	zh-hans
+U+8EB2	zh-hans	zh-hant
+U+8F66	zh-hans
+U+8F68-U+8F69	zh-hans
+U+8F6C	zh-hans
+U+8F6E-U+8F70	zh-hans
+U+8F7B	zh-hans
+U+8F7D	zh-hans
+U+8F83	zh-hans
+U+8F85-U+8F86	zh-hans
+U+8F88-U+8F89	zh-hans
+U+8F91	zh-hans
+U+8F93	zh-hans
+U+8FA8-U+8FA9	zh-hans
+U+8FB0-U+8FB1	zh-hans
+U+8FB9	zh-hans
+U+8FBE	zh-hans
+U+8FC1	zh-hans
+U+8FC7-U+8FC8	zh-hans
+U+8FD0-U+8FD1	zh-hans
+U+8FD8-U+8FD9	zh-hans
+U+8FDB-U+8FDF	zh-hans
+U+8FE6	zh-hans	zh-hant
+U+8FEA-U+8FEB	zh-hans	zh-hant
+U+9000-U+9003	zh-hans
+U+9009-U+900A	zh-hans
+U+9012	zh-hans
+U+9014	zh-hans	zh-hant
+U+901A-U+901B	zh-hans
+U+9022	zh-hans
+U+903B-U+903C	zh-hans
+U+904D	zh-hans
+U+9053	zh-hans
+U+9057	zh-hans
+U+907F-U+9080	zh-hans
+U+9093	zh-hans
+U+90AE	zh-hans
+U+90B1	zh-hans	zh-hant
+U+90BB	zh-hans
+U+90D1	zh-hans
+U+9102	zh-hans	zh-hant
+U+9149	zh-hans	zh-hant
+U+914B	zh-hans
+U+914D	zh-hans	zh-hant
+U+9189	zh-hans	zh-hant
+U+91C7	zh-hans	zh-hant
+U+91CA	zh-hans
+U+9488	zh-hans
+U+9493	zh-hans
+U+949F	zh-hans
+U+94A2	zh-hans
+U+94A6	zh-hans
+U+94B1	zh-hans
+U+94BB	zh-hans
+U+94C1	zh-hans
+U+94C3	zh-hans
+U+94DC	zh-hans
+U+94E2	zh-hans
+U+94ED	zh-hans
+U+94F6	zh-hans
+U+94FA	zh-hans
+U+94FE	zh-hans
+U+9500-U+9501	zh-hans
+U+9505	zh-hans
+U+950B	zh-hans
+U+9519	zh-hans
+U+9521	zh-hans
+U+9526	zh-hans
+U+952E	zh-hans
+U+953A	zh-hans
+U+9547	zh-hans
+U+955C	zh-hans
+U+956D	zh-hans
+U+957F	zh-hans
+U+95E8	zh-hans
+U+95EA	zh-hans
+U+95ED-U+95EE	zh-hans
+U+95F0	zh-hans
+U+95F2	zh-hans
+U+95F4	zh-hans
+U+95F7	zh-hans
+U+95F9	zh-hans
+U+95FB	zh-hans
+U+9601	zh-hans
+U+9605	zh-hans
+U+9610	zh-hans
+U+9614	zh-hans
+U+961F	zh-hans
+U+962E	zh-hans
+U+9632-U+9636	zh-hans
+U+963F-U+9640	zh-hans	zh-hant
+U+9644-U+9646	zh-hans
+U+9648	zh-hans
+U+9662	zh-hans
+U+9664	zh-hans
+U+9669-U+966A	zh-hans
+U+9675-U+9677	zh-hans
+U+9686	zh-hans	zh-hant
+U+968F-U+9690	zh-hans
+U+969C	zh-hans
+U+96BE	zh-hans
+U+96C4-U+96C6	zh-hans	zh-hant
+U+96C9	zh-hans	zh-hant
+U+96EF	zh-hans
+U+96F3	zh-hans
+U+96FE	zh-hans
+U+970D	zh-hans	zh-hant
+U+9716	zh-hans
+U+9738-U+9739	zh-hans	zh-hant
+U+9756	zh-hans	zh-hant
+U+9760	zh-hans	zh-hant
+U+977C	zh-hans	zh-hant
+U+978B	zh-hans	zh-hant
+U+9791	zh-hans
+U+97E6	zh-hans
+U+97E9	zh-hans
+U+9875-U+9876	zh-hans
+U+9879-U+987B	zh-hans
+U+987D-U+987F	zh-hans
+U+9884	zh-hans
+U+9886-U+9887	zh-hans
+U+9891	zh-hans
+U+9897-U+9898	zh-hans
+U+989D	zh-hans
+U+98CE	zh-hans
+U+98D8-U+98D9	zh-hans
+U+98DE-U+98DF	zh-hans
+U+9910	zh-hans	zh-hant
+U+996D-U+996E	zh-hans
+U+9970-U+9971	zh-hans
+U+997C	zh-hans
+U+9986	zh-hans
+U+99A8	zh-hans
+U+9A6C	zh-hans
+U+9A71	zh-hans
+U+9A76	zh-hans
+U+9A7B	zh-hans
+U+9A7E	zh-hans
+U+9A8C	zh-hans
+U+9A91	zh-hans
+U+9A97	zh-hans
+U+9A9A	zh-hans
+U+9AA4	zh-hans
+U+9C7C	zh-hans
+U+9C81	zh-hans
+U+9C9C	zh-hans
+U+9E1F	zh-hans
+U+9E21	zh-hans
+U+9E23	zh-hans
+U+9E2D	zh-hans
+U+9E3F	zh-hans
+U+9E45	zh-hans
+U+9E64	zh-hans
+U+9E70	zh-hans
+U+9EBB	zh-hans
+U+9ECE	zh-hans	zh-hant
+U+9ED1	zh-hans	zh-hant
+U+9ED8	zh-hans	zh-hant
+U+9F20	zh-hans	zh-hant
+U+9F50	zh-hans
+U+9F7F	zh-hans
+U+9F84	zh-hans
+U+9F99	zh-hans
+U+9F9F	zh-hans
+U+FE30-U+FE31	zh-hans
+U+FE33-U+FE44	zh-hans
+U+FE49-U+FE52	zh-hans	zh-hant
+U+FE54-U+FE57	zh-hans
+U+FE59-U+FE61	zh-hans
+U+FE63	zh-hans	zh-hant
+U+FE68	zh-hans	zh-hant
+U+FE6A-U+FE6B	zh-hans	zh-hant
+U+4E08-U+4E0D	zh-hant
+U+4E1E-U+4E1F	zh-hant
+U+4E3B	zh-hant
+U+4E48	zh-hant
+U+4E4B	zh-hant
+U+4E4E-U+4E4F	zh-hant
+U+4E5F	zh-hant
+U+4E82	zh-hant
+U+4E88	zh-hant
+U+4E8E	zh-hant
+U+4E9B	zh-hant
+U+4E9E	zh-hant
+U+4EA4-U+4EA6	zh-hant
+U+4EA8	zh-hant
+U+4EAB-U+4EAE	zh-hant
+U+4EC0-U+4EC1	zh-hant
+U+4ECD	zh-hant
+U+4F10-U+4F11	zh-hant
+U+4F19	zh-hant
+U+4F48-U+4F49	zh-hant
+U+4F4D-U+4F4F	zh-hant
+U+4F54-U+4F55	zh-hant
+U+4F86	zh-hant
+U+4FC2-U+4FC4	zh-hant
+U+4FE0-U+4FE1	zh-hant
+U+5011-U+5012	zh-hant
+U+5074-U+5077	zh-hant
+U+5080	zh-hant
+U+5099	zh-hant
+U+50A2-U+50A3	zh-hant
+U+50B2-U+50B3	zh-hant
+U+50CE-U+50CF	zh-hant
+U+50D1	zh-hant
+U+50F5	zh-hant
+U+50F9	zh-hant
+U+5110	zh-hant
+U+5118	zh-hant
+U+5133	zh-hant
+U+5137	zh-hant
+U+513B	zh-hant
+U+5143-U+5145	zh-hant
+U+5147-U+5149	zh-hant
+U+5152	zh-hant
+U+5167-U+5169	zh-hant
+U+5175-U+5178	zh-hant
+U+51F0-U+51F1	zh-hant
+U+51FA	zh-hant
+U+5229-U+522A	zh-hant
+U+5236-U+5237	zh-hant
+U+524C-U+524D	zh-hant
+U+5283	zh-hant
+U+5289	zh-hant
+U+528D	zh-hant
+U+52A9-U+52AB	zh-hant
+U+52C1	zh-hant
+U+52D9	zh-hant
+U+52DD-U+52DE	zh-hant
+U+52F5	zh-hant
+U+52F8	zh-hant
+U+52FF	zh-hant
+U+5339	zh-hant
+U+5340-U+5341	zh-hant
+U+5352-U+5354	zh-hant
+U+5357	zh-hant
+U+535C	zh-hant
+U+5361	zh-hant
+U+5373	zh-hant
+U+537B	zh-hant
+U+53AD	zh-hant
+U+53B2	zh-hant
+U+53C3	zh-hant
+U+53CA-U+53CB	zh-hant
+U+53CD	zh-hant
+U+53E2-U+53E6	zh-hant
+U+53F8	zh-hant
+U+5410-U+5412	zh-hant
+U+541D-U+5420	zh-hant
+U+5433	zh-hant
+U+54A6-U+54A7	zh-hant
+U+54CE	zh-hant
+U+5514	zh-hant
+U+5537-U+5538	zh-hant
+U+555F	zh-hant
+U+55AC	zh-hant
+U+55AE	zh-hant
+U+55CE	zh-hant
+U+55DA	zh-hant
+U+5617	zh-hant
+U+56B4	zh-hant
+U+56C9	zh-hant
+U+56CC	zh-hant
+U+56D1	zh-hant
+U+570B	zh-hant
+U+570D	zh-hant
+U+5712-U+5713	zh-hant
+U+5716	zh-hant
+U+5718	zh-hant
+U+571C	zh-hant
+U+5750	zh-hant
+U+5875	zh-hant
+U+58AE	zh-hant
+U+58D3	zh-hant
+U+58D8	zh-hant
+U+58DE	zh-hant
+U+58E2	zh-hant
+U+58EF	zh-hant
+U+58FD	zh-hant
+U+5920	zh-hant
+U+5937-U+5938	zh-hant
+U+593E	zh-hant
+U+594E-U+594F	zh-hant
+U+5957	zh-hant
+U+5967	zh-hant
+U+599D	zh-hant
+U+59B3	zh-hant
+U+5A03	zh-hant
+U+5A1B	zh-hant
+U+5A41	zh-hant
+U+5ABD	zh-hant
+U+5B78	zh-hant
+U+5B97-U+5B9C	zh-hant
+U+5BB3	zh-hant
+U+5BC4-U+5BC6	zh-hant
+U+5BDE-U+5BDF	zh-hant
+U+5BE2	zh-hant
+U+5BE6-U+5BE9	zh-hant
+U+5BEB-U+5BEC	zh-hant
+U+5BF5-U+5BF6	zh-hant
+U+5C07-U+5C08	zh-hant
+U+5C0A-U+5C0B	zh-hant
+U+5C0D-U+5C0F	zh-hant
+U+5C3C	zh-hant
+U+5C3E	zh-hant
+U+5C40-U+5C41	zh-hant
+U+5C45-U+5C46	zh-hant
+U+5C64	zh-hant
+U+5C6C	zh-hant
+U+5CFD	zh-hant
+U+5D19	zh-hant
+U+5DBA	zh-hant
+U+5E1B	zh-hant
+U+5E36	zh-hant
+U+5E6B	zh-hant
+U+5E87	zh-hant
+U+5E9A	zh-hant
+U+5EE0	zh-hant
+U+5EE2-U+5EE3	zh-hant
+U+5EF3	zh-hant
+U+5F26	zh-hant
+U+5F48	zh-hant
+U+5F4A	zh-hant
+U+5F4C	zh-hant
+U+5F4E	zh-hant
+U+5F5D-U+5F5E	zh-hant
+U+5F65	zh-hant
+U+5F85	zh-hant
+U+5F90-U+5F92	zh-hant
+U+5F9E	zh-hant
+U+5FA9	zh-hant
+U+6046	zh-hant
+U+6085	zh-hant
+U+60B6	zh-hant
+U+60E0-U+60E1	zh-hant
+U+60F1	zh-hant
+U+614B	zh-hant
+U+6158	zh-hant
+U+617E	zh-hant
+U+6190-U+6191	zh-hant
+U+61C9	zh-hant
+U+61F6-U+61F7	zh-hant
+U+61FC	zh-hant
+U+6200	zh-hant
+U+6230	zh-hant
+U+6232	zh-hant
+U+6236	zh-hant
+U+6265	zh-hant
+U+626D	zh-hant
+U+626F	zh-hant
+U+62C6	zh-hant
+U+62CB	zh-hant
+U+62CF	zh-hant
+U+6372	zh-hant
+U+6416	zh-hant
+U+6436	zh-hant
+U+6490	zh-hant
+U+64A3	zh-hant
+U+64A5	zh-hant
+U+64BE-U+64BF	zh-hant
+U+64C7	zh-hant
+U+64CA-U+64CB	zh-hant
+U+64D4	zh-hant
+U+64DA	zh-hant
+U+64E0	zh-hant
+U+64F4	zh-hant
+U+64FA	zh-hant
+U+64FE	zh-hant
+U+651D	zh-hant
+U+654D	zh-hant
+U+6557-U+6559	zh-hant
+U+6578	zh-hant
+U+65B7	zh-hant
+U+65E5-U+65E6	zh-hant
+U+65E9	zh-hant
+U+6649	zh-hant
+U+6652	zh-hant
+U+66C6	zh-hant
+U+66C9	zh-hant
+U+66F8	zh-hant
+U+6703	zh-hant
+U+676F-U+6771	zh-hant
+U+689D	zh-hant
+U+694A	zh-hant
+U+6953	zh-hant
+U+69AE	zh-hant
+U+69CD	zh-hant
+U+6A02	zh-hant
+U+6A13	zh-hant
+U+6A1E	zh-hant
+U+6A23	zh-hant
+U+6A6B	zh-hant
+U+6A94	zh-hant
+U+6AA2	zh-hant
+U+6B0A	zh-hant
+U+6B21	zh-hant
+U+6B23	zh-hant
+U+6B3D-U+6B3E	zh-hant
+U+6B50	zh-hant
+U+6B61-U+6B66	zh-hant
+U+6B72	zh-hant
+U+6B77-U+6B78	zh-hant
+U+6B8A	zh-hant
+U+6B98	zh-hant
+U+6BBA	zh-hant
+U+6BBC	zh-hant
+U+6BC0	zh-hant
+U+6C23	zh-hant
+U+6C92	zh-hant
+U+6CE1-U+6CE2	zh-hant
+U+6D29-U+6D2A	zh-hant
+U+6D87-U+6D89	zh-hant
+U+6DDA	zh-hant
+U+6DE8	zh-hant
+U+6DFA	zh-hant
+U+6EAA-U+6EAB	zh-hant
+U+6EC4-U+6EC5	zh-hant
+U+6EFE-U+6EFF	zh-hant
+U+6F32	zh-hant
+U+6F5B	zh-hant
+U+6FA4	zh-hant
+U+6FDF	zh-hant
+U+6FE4	zh-hant
+U+6FF1	zh-hant
+U+700F	zh-hant
+U+7063	zh-hant
+U+7070	zh-hant
+U+70B8	zh-hant
+U+70BA	zh-hant
+U+70CF	zh-hant
+U+71C8	zh-hant
+U+71D2	zh-hant
+U+71DF	zh-hant
+U+7210	zh-hant
+U+721B	zh-hant
+U+722C-U+722D	zh-hant
+U+7238	zh-hant
+U+723A	zh-hant
+U+723D-U+723E	zh-hant
+U+7246-U+7248	zh-hant
+U+7260	zh-hant
+U+727D	zh-hant
+U+72A7	zh-hant
+U+72C0	zh-hant
+U+7344-U+7345	zh-hant
+U+734E	zh-hant
+U+7368	zh-hant
+U+7378	zh-hant
+U+737B	zh-hant
+U+73E5	zh-hant
+U+7409	zh-hant
+U+7464	zh-hant
+U+746A	zh-hant
+U+7522	zh-hant
+U+7562	zh-hant
+U+756A-U+756B	zh-hant
+U+7576	zh-hant
+U+760B	zh-hant
+U+7661	zh-hant
+U+767B-U+767E	zh-hant
+U+76C3	zh-hant
+U+76DB-U+76DC	zh-hant
+U+76E1	zh-hant
+U+76E7	zh-hant
+U+773E	zh-hant
+U+77AD	zh-hant
+U+788E	zh-hant
+U+78A9	zh-hant
+U+78BC	zh-hant
+U+78EF	zh-hant
+U+7919	zh-hant
+U+7955-U+7956	zh-hant
+U+795A-U+795B	zh-hant
+U+797F	zh-hant
+U+798D-U+798F	zh-hant
+U+79AA	zh-hant
+U+79AE	zh-hant
+U+7A05	zh-hant
+U+7A0D	zh-hant
+U+7A31	zh-hant
+U+7A4C-U+7A4D	zh-hant
+U+7A69	zh-hant
+U+7AA9	zh-hant
+U+7AAE	zh-hant
+U+7AB6	zh-hant
+U+7ADF-U+7AE0	zh-hant
+U+7C2B	zh-hant
+U+7C3D	zh-hant
+U+7C43	zh-hant
+U+7C4C-U+7C4D	zh-hant
+U+7C64	zh-hant
+U+7CB5	zh-hant
+U+7CD5	zh-hant
+U+7D10	zh-hant
+U+7D39	zh-hant
+U+7D55	zh-hant
+U+7D71-U+7D72	zh-hant
+U+7D93	zh-hant
+U+7D9C	zh-hant
+U+7DA0	zh-hant
+U+7DD2	zh-hant
+U+7DE3	zh-hant
+U+7DEC	zh-hant
+U+7E23	zh-hant
+U+7E31	zh-hant
+U+7E3D-U+7E3E	zh-hant
+U+7E46	zh-hant
+U+7E54	zh-hant
+U+7E5E	zh-hant
+U+7E6A	zh-hant
+U+7E73	zh-hant
+U+7E7C	zh-hant
+U+7E8C	zh-hant
+U+7FA9	zh-hant
+U+7FF9	zh-hant
+U+806F-U+8070	zh-hant
+U+8072	zh-hant
+U+807D	zh-hant
+U+812B	zh-hant
+U+8153-U+8154	zh-hant
+U+8166	zh-hant
+U+8173	zh-hant
+U+817F	zh-hant
+U+81BD	zh-hant
+U+81C9	zh-hant
+U+81D8	zh-hant
+U+81E5	zh-hant
+U+81FA	zh-hant
+U+8207-U+820A	zh-hant
+U+82AC	zh-hant
+U+8305	zh-hant
+U+8332	zh-hant
+U+837C	zh-hant
+U+8389-U+838A	zh-hant
+U+83AB	zh-hant
+U+840A	zh-hant
+U+842C	zh-hant
+U+84B2	zh-hant
+U+84BC	zh-hant
+U+84EE	zh-hant
+U+8515	zh-hant
+U+8523	zh-hant
+U+856D	zh-hant
+U+85A9-U+85AA	zh-hant
+U+85DD	zh-hant
+U+85E4-U+85E5	zh-hant
+U+8606-U+8607	zh-hant
+U+862D	zh-hant
+U+8655	zh-hant
+U+865B	zh-hant
+U+865F	zh-hant
+U+8667	zh-hant
+U+87A2	zh-hant
+U+87F2	zh-hant
+U+880D	zh-hant
+U+883B	zh-hant
+U+88DC-U+88DD	zh-hant
+U+88E1	zh-hant
+U+88FD	zh-hant
+U+8932	zh-hant
+U+89BA	zh-hant
+U+89BD	zh-hant
+U+89C0	zh-hant
+U+89F8	zh-hant
+U+8A02	zh-hant
+U+8A0A	zh-hant
+U+8A25	zh-hant
+U+8A34	zh-hant
+U+8A3B-U+8A3C	zh-hant
+U+8A55	zh-hant
+U+8A62	zh-hant
+U+8A71-U+8A73	zh-hant
+U+8AAA	zh-hant
+U+8ABC	zh-hant
+U+8AD2	zh-hant
+U+8AFA	zh-hant
+U+8B00	zh-hant
+U+8B02	zh-hant
+U+8B49	zh-hant
+U+8B6F-U+8B70	zh-hant
+U+8B7D	zh-hant
+U+8B80	zh-hant
+U+8B8A	zh-hant
+U+8B93	zh-hant
+U+8B9A	zh-hant
+U+8C48	zh-hant
+U+8C50	zh-hant
+U+8C6C	zh-hant
+U+8C93	zh-hant
+U+8CA8	zh-hant
+U+8CAA-U+8CAC	zh-hant
+U+8CB7	zh-hant
+U+8CC0	zh-hant
+U+8CC7-U+8CC8	zh-hant
+U+8CDC	zh-hant
+U+8CE2-U+8CE4	zh-hant
+U+8CF4	zh-hant
+U+8CFA	zh-hant
+U+8CFC-U+8CFD	zh-hant
+U+8D0A	zh-hant
+U+8D0F	zh-hant
+U+8D95	zh-hant
+U+8D99	zh-hant
+U+8DA8	zh-hant
+U+8DCE	zh-hant
+U+8E5F	zh-hant
+U+8E64	zh-hant
+U+8F14-U+8F15	zh-hant
+U+8F1B	zh-hant
+U+8F2F	zh-hant
+U+8F49	zh-hant
+U+8F5F	zh-hant
+U+8FA6	zh-hant
+U+8FA8	zh-hant
+U+8FAD	zh-hant
+U+8FAF-U+8FB2	zh-hant
+U+8FF4	zh-hant
+U+9019-U+901B	zh-hant
+U+9022-U+9023	zh-hant
+U+903C	zh-hant
+U+9059	zh-hant
+U+9060	zh-hant
+U+9072	zh-hant
+U+907F-U+9081	zh-hant
+U+908A	zh-hant
+U+908F	zh-hant
+U+9109	zh-hant
+U+912D	zh-hant
+U+9130	zh-hant
+U+91AB	zh-hant
+U+91CB-U+91CF	zh-hant
+U+91DD	zh-hant
+U+9296	zh-hant
+U+92B3	zh-hant
+U+92B7	zh-hant
+U+92D2	zh-hant
+U+9304	zh-hant
+U+9322	zh-hant
+U+932B	zh-hant
+U+932F	zh-hant
+U+937E	zh-hant
+U+938A	zh-hant
+U+9435	zh-hant
+U+9583	zh-hant
+U+958F	zh-hant
+U+9592-U+9593	zh-hant
+U+95A3	zh-hant
+U+95B1	zh-hant
+U+95C6	zh-hant
+U+95CA	zh-hant
+U+95CD	zh-hant
+U+95D0	zh-hant
+U+95DC	zh-hant
+U+95E1	zh-hant
+U+9662-U+9664	zh-hant
+U+9675-U+9678	zh-hant
+U+968E	zh-hant
+U+96A8	zh-hant
+U+96AA	zh-hant
+U+96B1	zh-hant
+U+96D6	zh-hant
+U+96D9	zh-hant
+U+96DC	zh-hant
+U+96DE	zh-hant
+U+9742	zh-hant
+U+9748	zh-hant
+U+975C	zh-hant
+U+97C3	zh-hant
+U+97CB	zh-hant
+U+9801-U+9802	zh-hant
+U+9810-U+9811	zh-hant
+U+9813	zh-hant
+U+9817-U+9818	zh-hant
+U+981E	zh-hant
+U+982D	zh-hant
+U+983B	zh-hant
+U+9846	zh-hant
+U+984C-U+984D	zh-hant
+U+984F	zh-hant
+U+986F	zh-hant
+U+98C4	zh-hant
+U+98FD-U+98FE	zh-hant
+U+9918	zh-hant
+U+99D5	zh-hant
+U+99DB	zh-hant
+U+9A19	zh-hant
+U+9A37	zh-hant
+U+9A45	zh-hant
+U+9A57	zh-hant
+U+9AD4	zh-hant
+U+9AEE	zh-hant
+U+9B06	zh-hant
+U+9B25	zh-hant
+U+9B27	zh-hant
+U+9B41-U+9B42	zh-hant
+U+9B6F	zh-hant
+U+9CF3-U+9CF4	zh-hant
+U+9D3B	zh-hant
+U+9D5D	zh-hant
+U+9DF9	zh-hant
+U+9EA5	zh-hant
+U+9EB5	zh-hant
+U+9EBB-U+9EBC	zh-hant
+U+9EC3	zh-hant
+U+9EDE	zh-hant
+U+9EE8	zh-hant
+U+9F4A-U+9F4B	zh-hant
+U+9F52	zh-hant
+U+9F61	zh-hant
+U+9F8D	zh-hant
+U+9F9C	zh-hant
+U+FE30-U+FE44	zh-hant
+U+FE54-U+FE61	zh-hant

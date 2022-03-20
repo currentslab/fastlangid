@@ -35,13 +35,25 @@ def clean_text(text):
         results = re.sub(regex_match, replace_token, results)
     return results
 
+UNK_CLS = '<unk>'
 
 MODEL_FILE = os.path.join(os.path.dirname(__file__), 'models', 'lid.176.ftz')
 SUPPLEMENT_MODLE_FILE = os.path.join(os.path.dirname(__file__), 'models', 'model_s.ftz')
+with open(os.path.join(os.path.dirname(__file__), 'models', 'punc.dict'), 'r', encoding='utf-8') as f:
+    PUNCTUATION = set(list(f.read().strip()))
+
+def only_punctuations(text):
+    for char in set(text):
+        if char not in PUNCTUATION:
+            return False
+    return True
 
 UNCERTAIN_SETS = ('zh', 'ko', 'ja')
 
 CHINESE_FAMILY_CODES =  ('zh-hant', 'zh-hans', 'zh-yue')
+
+
+
 
 class LID():
     def __init__(self, custom_model=None, sup_custom_model=None):
@@ -106,8 +118,11 @@ class LID():
         if isinstance(text, unicode):
             text = self.clean_up(text, full_clean=full_clean)
             if len(text) == 0:
-                raise ValueError("input text is not sufficient")
-            return self._predict_text(text,supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
+                return UNK_CLS
+            elif only_punctuations(text):
+                return UNK_CLS
+
+            return self._predict_text(text, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
         else:
             batch = [ self.clean_up(i, full_clean=full_clean) for i in text ]
             return [ self._predict_text(b, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second) for b in batch ]
