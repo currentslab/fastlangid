@@ -37,5 +37,22 @@ def init_dict():
 
 lang2regex = init_dict()
 
+def find_matched_language(text):
+    matched_lang = []
+    text_len = len(text)
+    if text_len == 0:
+        return matched_lang
 
+    matched_fast = []
+    for lang, char_reg in lang2regex.items():
+        if char_reg.search(text) is not None:
+            matched_char = len(list(re.finditer(char_reg, text)))
+            fast_lang = lang
+            if lang[:2] == 'zh':
+                fast_lang = 'zh'
+            matched_lang.append((lang,  matched_char/ text_len, fast_lang ))
 
+    if len(matched_lang) == 0:
+        return matched_lang
+
+    return sorted(matched_lang, key= lambda x:x[1], reverse=True)

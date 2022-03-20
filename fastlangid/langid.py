@@ -5,6 +5,16 @@ import os, sys, contextlib
 import collections
 from fasttext import load_model
 import fasttext
+from fastlangid.utils import (
+    clean_text,
+    only_punctuations,
+    input_preprocess,
+    UNCERTAIN_SETS,
+    UNK_CLS,
+    REGEX_NOT_SUPPORT,
+    CHINESE_FAMILY_CODES
+)
+from fastlangid.regex_rule import find_matched_language
 
 
 fasttext.FastText.eprint = lambda x: None
@@ -12,47 +22,8 @@ if sys.version_info[0] >= 3:
     unicode = str
 
 
-symbol_removal = re.compile(r"[.\!?,'/()。，，；:\–‘\-\[\]【】|~、…「」“”《》=——+～！@#$%⋯⋯&*（）\n\t]")
-RAW_CONTENT_CLEANER = re.compile(r"#video_container #my-video{width:100%;padding-bottom:56.25%; height:56.25%;}|\[embedded content\]|Newsfrom Japan")
-WHITE_SPACE_CLEANER = [
-	(re.compile(r"\s\s+"), " "),
-	(re.compile(r"\n+"), "\n\n"),
-	(re.compile(r"\t+"), "\t\t"),
-]
-HTML_CLEANER = re.compile(r'<.*?>')
-
-def input_preprocess(text):
-    text = re.sub(symbol_removal, "", text.strip())
-    # text = text.replace('Yahoo', '')
-    return text
-
-def clean_text(text):
-    results = re.sub(HTML_CLEANER, "", results)
-
-    results = re.sub(RAW_CONTENT_CLEANER, "", str(text))
-    results = results.strip()
-    for regex_match, replace_token in WHITE_SPACE_CLEANER:
-        results = re.sub(regex_match, replace_token, results)
-    return results
-
-UNK_CLS = '<unk>'
-
 MODEL_FILE = os.path.join(os.path.dirname(__file__), 'models', 'lid.176.ftz')
 SUPPLEMENT_MODLE_FILE = os.path.join(os.path.dirname(__file__), 'models', 'model_s.ftz')
-with open(os.path.join(os.path.dirname(__file__), 'models', 'punc.dict'), 'r', encoding='utf-8') as f:
-    PUNCTUATION = set(list(f.read().strip()))
-
-def only_punctuations(text):
-    for char in set(text):
-        if char not in PUNCTUATION:
-            return False
-    return True
-
-UNCERTAIN_SETS = ('zh', 'ko', 'ja')
-
-CHINESE_FAMILY_CODES =  ('zh-hant', 'zh-hans', 'zh-yue')
-
-
 
 
 class LID():
@@ -74,40 +45,53 @@ class LID():
             self.sup_model = load_model(self.sup_model_file)
             self.model = load_model(self.model_file)
 
+    def _second_stage(self, text, k, prob, filter_only_han_char=False):
+        labels_, probs_ = self.sup_model.predict(text, k=k)
+
+        lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
+        if filter_only_han_char:
+            results = [ (lang_id, probs_[idx]  ) for idx, lang_id in enumerate(lang_ids) if lang_id in CHINESE_FAMILY_CODES]
+        else:
+            results = list(zip(lang_ids, probs_))
+        if prob: # validate prob is not None
+            return results
+        return [r[0] for r in results ] if k > 1 else results[0][0]
 
     def _predict_text(self, text, supplement_threshold=0.93, k=1, prob=False, force_second=False):
+        matched_lang = find_matched_language(text)
+
+        fastlang_code = set([ m[2] for m in matched_lang])
+        if fastlang_code == UNCERTAIN_SETS:
+            # regex match only found uncertain sets : zh, ko, ja
+            # we will skip first stage model
+            return self._second_stage(text, k, prob)
+
         k = max(1, k)
-        labels, probs = self.model.predict(text, k=k)
+
+        labels, probs = self.model.predict(text, k=10)
         lang_ids = list(map(lambda x: x.replace("__label__", ""), labels))
-    
+
 
         # fasttext models usually confuse chinese, korean, japanese words
         # if the model is not so sure we pass to our model to reduce down the uncertainty
         if lang_ids[0] in UNCERTAIN_SETS and ((probs[0] < supplement_threshold) or force_second):
-            labels_, probs_ = self.sup_model.predict(text, k=k)
-
-            lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
-            results = list(zip(lang_ids, probs_))
-            if prob:
-                return list(zip(lang_ids, probs_))
-            return lang_ids if k > 1 else lang_ids[0]
+            return self._second_stage(text, k, prob)
         # predict chinese: now we want to know what language is it
         elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold) or force_second:
+            return self._second_stage(text, k, prob, filter_only_han_char=True)
+        
+        valid_langs = []
+        valid_lang_ids = []
 
-            labels_, probs_ = self.sup_model.predict(text, k=4)
-            lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
-
-            results = [ (lang_id, probs_[idx]  ) for idx, lang_id in enumerate(lang_ids) if lang_id in CHINESE_FAMILY_CODES]
-            results.sort(key=lambda x: x[1], reverse=True)
-            if prob: # validate prob is not None
-                return results
-            return [r[0] for r in results ] if k > 1 else results[0][0]
+        for lang_id, p in zip(lang_ids, probs):
+            if lang_id in fastlang_code or lang_id in REGEX_NOT_SUPPORT:
+                valid_langs.append((lang_id, p))
+                valid_lang_ids.append(lang_id)
 
         # return list of predictions
         if prob:
-            prob_pair = list(zip(lang_ids, probs))
-            return  prob_pair[:k] if k > 1 else prob_pair[0]
-        return lang_ids[:k] if k > 1 else lang_ids[0]
+            return  valid_langs[:k] if k > 1 else valid_langs[0]
+        return valid_lang_ids[:k] if k > 1 else valid_lang_ids[0]
 
     def clean_up(self, text, full_clean=False):
         if full_clean:

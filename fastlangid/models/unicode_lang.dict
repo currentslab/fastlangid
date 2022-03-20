@@ -37,36 +37,36 @@ A-Za-zU+00E0U+00E8U+00E9U+00ECU+00F2U+00F3U+00F9	it
 U+0400-U+0500	uk	ky	be	ru	tk	sr	bg	uz	mk	kk
 U+E01-U+E3A	th
 U+E40-U+E4E	th
-U+2010-U+2011	id	ms	de	es	ru	th	en	ar	vi	fr
-U+2013-U+2014	id	ms	de	es	ru	th	en	ar	vi	fr
-U+2018-U+2019	id	ms	es	th	en	vi
-U+201C-U+201D	id	ms	es	th	it	en	vi	fr
-U+2032-U+2033	id	ms	es	th	en	vi
-U+20AC	ur	id	ms	de	es	ru	th	it	en	ar	vi	fr
-U+41-U+5F	id	ms	de	es	it	en	vi	fr
-U+61-U+7A	id	ms	es	en	vi	fr
-U+7C	id	ms	es	en	vi	fr
-U+A7	id	ms	de	es	en	vi	fr
-U+A9	id	ms	de	es	it	en	vi	fr
-U+C0-U+C3	vi
+U+2010-U+2011	sv	ky	tr	eo	en	af	gu	pl	he	ru	sr	ar	fi	vi	fr	nl	cs	lt	el	pt	mn	hr	id	is	ms	de	es	th	sk	fo	ro
+U+2013-U+2014	sv	ky	tr	eo	en	af	gu	pl	he	ru	ar	vi	fr	nl	lt	el	pt	mn	hr	id	is	ms	de	es	th	ro
+U+2018-U+2019	gu	te	id	mt	sv	ms	af	es	hi	tr	eo	th	en	fo	pt	vi	mn	nl
+U+201C-U+201D	gu	te	id	mt	sv	ms	af	es	hi	tr	eo	th	it	mn	en	fo	pt	vi	fr	nl
+U+2032-U+2033	gu	hr	pl	id	is	sv	ms	af	es	tr	th	en	fo	pt	vi	mn	nl
+U+20AC	te	sv	ky	be	tr	eo	it	en	af	gu	pl	mt	he	ru	hu	sr	ar	fi	vi	fr	nl	cs	ur	lt	ps	el	pt	mn	et	hr	id	is	nb	ms	de	es	hi	th	sw	sk	fo	ro
+U+41-U+5F	id	mt	ms	de	es	it	en	vi	fr
+U+61-U+7A	id	sv	cs	ms	af	es	fi	en	sk	pt	vi	fr	nl
+U+7C	sv	tr	en	af	gu	he	ar	fi	vi	fr	nl	cs	ur	el	pt	mn	hr	id	is	ms	es	sk	fo	ro
+U+A7	sv	ky	tr	en	af	gu	pl	hu	fi	vi	fr	nl	cs	el	pt	mn	id	is	nb	ms	de	es	sk	fo
+U+A9	te	sv	ky	be	tr	eo	it	en	af	gu	pl	mt	he	hu	sr	ar	fi	vi	fr	nl	cs	ur	lt	ps	el	pt	mn	et	hr	id	is	nb	ms	de	es	hi	sw	sk	fo	ro
+U+C0-U+C3	pt	vi
 U+C8-U+CA	vi
 U+CC-U+CD	vi
-U+D2-U+D5	vi
+U+D2-U+D5	pt	vi
 U+D9-U+DA	vi
-U+DD	vi
-U+E0-U+E3	vi
+U+DD	vi	sk	fo	cs
+U+E0-U+E3	pt	vi
 U+E8-U+EA	vi
 U+EC-U+ED	vi
-U+F2-U+F5	vi
+U+F2-U+F5	pt	vi
 U+F9-U+FA	vi
-U+FD	vi
-U+102-U+103	vi
-U+110-U+111	vi
+U+FD	vi	sk	fo	cs
+U+102-U+103	vi	ro
+U+110-U+111	hr	vi
 U+128-U+129	vi
 U+168-U+169	vi
 U+1A0-U+1A1	vi
 U+1AF-U+1B0	vi
-U+2020-U+2021	id	ms	es	en	vi	fr
+U+2020-U+2021	gu	pl	id	is	sv	ms	af	es	tr	mn	en	pt	vi	fr	nl
 U+301C	ko	ja
 U+30FB	ko
 U+3131	ko
@@ -1835,92 +1835,60 @@ U+9F13	zh-hans	ja	zh-hant
 U+9F3B	zh-hans	ja	zh-hant
 U+9F62	ja
 U+FF61-U+FF65	ja
-U+60C-U+60D	ur
-U+61B	ur
-U+61F	ar	ur
-U+621	ur
-U+627-U+628	ur
-U+62A-U+63A	ur
-U+641-U+642	ur
-U+644-U+646	ur
-U+648	ur
-U+66B-U+66C	ur
-U+679	ur
-U+67E	ur
-U+686	ur
-U+688	ur
-U+691	ur
-U+698	ur
-U+6A9	ur
-U+6AF	ur
-U+6BE	ur
-U+6C1	ur
-U+6CC	ur
-U+6D2	ur
-U+6D4	ur
-U+6F0-U+6F9	ur
-U+200E	ar	ur
-U+2011	ur	it
-U+AB	de	es	it	ar	fr
-U+BB	de	es	it	ar	fr
-U+609	ar
-U+60C	ar
-U+61B-U+61C	ar
-U+621-U+63A	ar
-U+641-U+652	ar
-U+660-U+66C	ar
-U+670	ar
 U+A1	es
+U+AB	pl	nb	ky	de	es	be	hu	el	it	ar	fr	ro
+U+BB	pl	nb	ky	de	es	be	hu	el	it	ar	fi	fr	ro
 U+BF	es
-U+C1	es
-U+C9	es
-U+CD	es
+U+C1	is	cs	es	hu	sk	fo	nl
+U+C9	nb	is	sv	cs	es	hu	sk	nl
+U+CD	is	cs	es	hu	sk	fo	pt	nl
 U+D1	es
-U+D3	es
-U+DA	es
-U+DC	de	es
-U+E1	es
-U+E9	es
-U+ED	es
+U+D3	pl	is	cs	es	hu	fo	nl
+U+DA	is	cs	es	hu	sk	fo	pt	nl
+U+DC	de	es	tr	hu	et	nl
+U+E1	is	cs	es	hu	sk	fo	nl
+U+E9	nb	is	sv	cs	es	hu	sk	nl
+U+ED	is	cs	es	hu	sk	fo	pt	nl
 U+F1	es
-U+F3	es
-U+FA	es
-U+FC	de	es
-U+61-U+7D	it	de
-U+C0	it	fr
+U+F3	pl	is	cs	es	hu	fo	nl
+U+FA	is	cs	es	hu	sk	fo	pt	nl
+U+FC	de	es	tr	hu	et	nl
+U+61-U+7D	it	de	et	nb
+U+C0	mt	nb	sv	it	fr
 U+C8-U+C9	it
-U+CC	it
+U+CC	it	mt
 U+D2-U+D3	it
-U+D9	it	fr
-U+E0	it	fr
+U+D9	it	mt	fr
+U+E0	mt	nb	sv	it	fr
 U+E8-U+E9	it
-U+EC	it
+U+EC	it	mt
 U+F2-U+F3	it
-U+F9	it	fr
+U+F9	it	mt	fr
+U+2011	te	ur	ps	mt	nb	be	hi	hu	it	sw	et
 U+2014	it
-U+2019	it	fr
-U+C4	de
-U+D6	de
+U+2019	hu	fi	it	fr
+U+C4	de	sk	et	nl
+U+D6	is	sv	de	tr	hu	fi	af	nl
 U+DF	de
-U+E4	de
-U+F6	de
-U+2018	de	ru
-U+201A	de	ru
-U+201C	de	ru
-U+201E	de	ru
-U+401	ru
-U+410-U+44F	ru
-U+451	ru
+U+E4	de	sk	et	nl
+U+F6	is	sv	de	tr	hu	fi	af	nl
+U+2018	ps	is	cs	ky	de	ru	sr	sk	ro
+U+201A	is	ky	de	ru	sr	sk	cs
+U+201C	lt	is	ky	de	ru	sr	sk	et	cs
+U+201E	lt	is	ky	de	ru	sr	sk	et	cs
+U+401	ky	be	mn	ru
+U+410-U+44F	mn	ru
+U+451	ky	be	mn	ru
 U+B2-U+B3	fr
-U+C2	fr
+U+C2	fr	ro
 U+C6-U+CB	fr
-U+CE-U+CF	fr
-U+D4	fr
+U+CE-U+CF	af	fr
+U+D4	af	fr
 U+DB-U+DC	fr
-U+E2	fr
+U+E2	fr	ro
 U+E6-U+EB	fr
-U+EE-U+EF	fr
-U+F4	fr
+U+EE-U+EF	af	fr
+U+F4	af	fr
 U+FB-U+FC	fr
 U+FF	fr
 U+152-U+153	fr
@@ -1928,8 +1896,8 @@ U+178	fr
 U+2B3	fr
 U+2E2	fr
 U+1D48-U+1D49	fr
-U+202F-U+2030	fr
-U+2212	fr
+U+202F-U+2030	fi	fr
+U+2212	lt	ps	nb	sv	eo	fo	fi	fr	et
 U+4E07-U+4E0E	zh-hans
 U+4E11	zh-hans	zh-hant
 U+4E13-U+4E14	zh-hans
@@ -3518,3 +3486,266 @@ U+9F8D	zh-hant
 U+9F9C	zh-hant
 U+FE30-U+FE44	zh-hant
 U+FE54-U+FE61	zh-hant
+U+20-U+5F	pl	is	sv	tr	hu	fo	pt	af	nl
+U+A0	te	sv	ky	be	tr	eo	af	gu	pl	mt	he	hu	sr	ar	fi	nl	cs	ur	lt	ps	el	pt	mn	et	hr	is	nb	hi	sw	sk	fo	ro
+U+C1-U+C2	af
+U+C8-U+CB	af
+U+DB	af
+U+E1-U+E2	af
+U+E8-U+EB	af
+U+FB	af
+U+2026	sv	ky	tr	eo	af	gu	pl	hu	sr	ar	fi	nl	cs	lt	el	pt	mn	hr	is	sk	fo	ro
+U+2030	te	sv	ky	be	tr	eo	af	gu	pl	mt	he	hu	sr	ar	nl	cs	ur	lt	ps	el	pt	mn	et	hr	is	nb	hi	sw	sk	fo	ro
+U+20-U+22	te	hr	mt	nb	he	eo	el	sw	ar	ro
+U+24-U+25	te	ur	hr	lt	ps	mt	nb	he	be	hi	eo	sw	ar	et	ro
+U+27-U+29	te	ur	lt	ps	he	be	hi	eo	sw	ar	et
+U+2B-U+3A	ar	ur
+U+3C-U+3E	ar	ur
+U+5B-U+5F	gu	ur	te	ps	he	ky	be	hi	el	sr	ar	mn
+U+609	ar	ps
+U+60C	ar	ps
+U+61B-U+61C	ar
+U+61F	ar	ur
+U+621-U+63A	ar
+U+641-U+652	ar
+U+660-U+66C	ar
+U+670	ar	ps
+U+200E	ar	ur	he	ps
+U+20	ur
+U+60C-U+60D	ur
+U+61B	ur
+U+621	ur
+U+627-U+628	ur
+U+62A-U+63A	ur
+U+641-U+642	ur	ps
+U+644-U+646	ur
+U+648	ur
+U+66B-U+66C	ur
+U+679	ur
+U+67E	ur	ps
+U+686	ur
+U+688	ur
+U+691	ur
+U+698	ur	ps
+U+6A9	ur	ps
+U+6AF	ur	ps
+U+6BE	ur
+U+6C1	ur
+U+6CC	ur
+U+6D2	ur
+U+6D4	ur	ps
+U+6F0-U+6F9	ur	ps
+U+2B-U+3F	te	lt	he	be	hi	eo	sw
+U+41-U+50	eo	lt	sw
+U+52-U+56	eo	lt
+U+5A-U+5F	eo
+U+61-U+70	hr	lt	pl	tr	eo	hu	sw	ro
+U+72-U+76	hr	lt	is	tr	eo	hu	fo
+U+7A-U+7D	eo	mt
+U+108-U+109	eo
+U+11C-U+11D	eo
+U+124-U+125	eo
+U+134-U+135	eo
+U+15C-U+15D	eo
+U+16C-U+16D	eo
+U+20-U+21	lt	ps	be	hi	sr	sk	fi	et	cs
+U+23-U+5F	fi
+U+C4-U+C5	sv	fi
+U+E4-U+E5	sv	fi
+U+160-U+161	hr	lt	sk	fi	et	cs
+U+17D-U+17E	hr	lt	sk	fi	et	cs
+U+2013	nb	hu	sr	sk	fo	fi	et	cs
+U+201D	fi
+U+61-U+62	mt	fo	is
+U+64-U+70	fo	is
+U+79	fo
+U+C6	fo	is
+U+D0	fo	is
+U+D8	fo	nb
+U+E6	fo	is
+U+F0	fo	is
+U+F8	fo	nb
+U+2020	fo
+U+7B-U+7D	te	ps	ky	be	hi	sr
+U+901-U+903	hi
+U+905-U+90D	hi
+U+90F-U+911	hi
+U+913-U+928	hi
+U+92A-U+930	hi
+U+932-U+933	hi
+U+935-U+939	hi
+U+93C-U+945	hi
+U+947-U+949	hi
+U+94B-U+94D	hi
+U+950	hi
+U+966-U+970	hi
+U+5BE	he
+U+5D0-U+5EA	he
+U+5F3-U+5F4	he
+U+27-U+5F	hr	ro	nb
+U+7A	hr
+U+106-U+107	hr
+U+10C-U+10D	hr	lt
+U+1C4	hr
+U+1C6-U+1C7	hr
+U+1C9-U+1CA	hr
+U+1CC	hr
+U+2018-U+201A	hr
+U+201C-U+201E	hr	ro
+U+79-U+7E	hu	pl
+U+150-U+151	hu
+U+170-U+171	hu
+U+1F1	hu
+U+1F3	hu	sk
+U+201D-U+201E	hu	pl
+U+2052	hu
+U+27E8-U+27E9	hu
+U+78-U+79	is
+U+DD-U+DE	is
+U+FD-U+FE	is
+U+20-U+40	gu	ky	mn
+U+A81-U+A83	gu
+U+A85-U+A8B	gu
+U+A8D	gu
+U+A8F-U+A91	gu
+U+A93-U+AA8	gu
+U+AAA-U+AB0	gu
+U+AB2-U+AB3	gu
+U+AB5-U+AB9	gu
+U+ABC-U+AC5	gu
+U+AC7-U+AC9	gu
+U+ACB-U+ACD	gu
+U+AD0	gu
+U+AE0	gu
+U+AE6-U+AEF	gu
+U+59-U+5F	lt	sw
+U+79-U+7D	lt	sw
+U+104-U+105	lt
+U+116-U+119	lt
+U+12E-U+12F	lt
+U+16A-U+16B	lt
+U+172-U+173	lt
+U+410-U+431	ky
+U+433-U+443	ky
+U+445	ky
+U+447-U+448	ky
+U+44A-U+44B	ky
+U+44D-U+44F	ky
+U+4A2-U+4A3	ky
+U+4AE-U+4AF	ky	mn
+U+4E8-U+4E9	ky	mn
+U+CB	nl
+U+CF	nl
+U+EB	nl
+U+EF	nl
+U+133	nl
+U+301	el	nl
+U+C5-U+C6	nb
+U+D2-U+D4	nb
+U+E5-U+E6	nb
+U+F2-U+F4	nb
+U+C7	pt	tr
+U+C9-U+CA	pt
+U+E7	pt	tr
+U+E9-U+EA	pt
+U+72-U+7A	ro
+U+CE	ro
+U+EE	ro
+U+218-U+21B	ro
+U+24-U+5F	sk	cs
+U+D3-U+D4	sk
+U+F3-U+F4	sk
+U+10C-U+10F	sk	cs
+U+139-U+13A	sk
+U+13D-U+13E	sk
+U+147-U+148	sk	cs
+U+154-U+155	sk
+U+164-U+165	sk	cs
+U+1C6	sk
+U+52-U+57	sw
+U+72-U+77	sw
+U+23-U+25	sr
+U+27-U+3F	sr	mt
+U+402	sr
+U+408-U+40B	sr
+U+40F-U+418	sr
+U+41A-U+428	sr
+U+430-U+438	sr
+U+43A-U+448	sr
+U+452	sr
+U+458-U+45B	sr
+U+45F	sr
+U+79-U+7A	tr
+U+11E-U+11F	tr
+U+130-U+131	tr
+U+15E-U+15F	tr
+U+C01-U+C03	te
+U+C05-U+C0C	te
+U+C0E-U+C10	te
+U+C12-U+C28	te
+U+C2A-U+C33	te
+U+C35-U+C39	te
+U+C3E-U+C44	te
+U+C46-U+C48	te
+U+C4A-U+C4D	te
+U+C55-U+C56	te
+U+C60-U+C61	te
+U+C66-U+C6F	te
+U+2B-U+3E	ps
+U+621-U+624	ps
+U+626-U+63A	ps
+U+644-U+648	ps
+U+64A-U+652	ps
+U+654	ps
+U+66A-U+66C	ps
+U+67C	ps
+U+681	ps
+U+685-U+686	ps
+U+689	ps
+U+693	ps
+U+696	ps
+U+69A	ps
+U+6AB	ps
+U+6BC	ps
+U+6CC-U+6CD	ps
+U+6D0	ps
+U+72-U+75	pl
+U+77	pl
+U+B0	pl
+U+104-U+107	pl
+U+118-U+119	pl
+U+141-U+144	pl
+U+15A-U+15B	pl
+U+179-U+17C	pl
+U+64-U+78	mt
+U+C8	mt
+U+D2	mt
+U+E8	mt
+U+F2	mt
+U+10A-U+10B	mt
+U+120-U+121	mt
+U+126-U+127	mt
+U+17B-U+17C	mt
+U+2B-U+5F	et
+U+D5-U+D6	et
+U+F5-U+F6	et
+U+24-U+3E	el
+U+40	el
+U+308	el
+U+386	el
+U+388-U+38A	el
+U+38C	el
+U+38E-U+3A1	el
+U+3A3-U+3CE	el
+U+11A-U+11B	cs
+U+158-U+159	cs
+U+16E-U+16F	cs
+U+406	be
+U+40E	be
+U+410-U+417	be
+U+419-U+428	be
+U+42B-U+437	be
+U+439-U+448	be
+U+44B-U+44F	be
+U+456	be
+U+45E	be
