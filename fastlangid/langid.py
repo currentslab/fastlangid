@@ -57,39 +57,33 @@ class LID():
         return [r[0] for r in results[:k] ] if k > 1 else results[0][0]
 
     def _predict_text(self, text, supplement_threshold=0.93, k=1, prob=False, force_second=False):
-        matched_lang = find_matched_language(text)
-
-        fastlang_code = set([ m[2] for m in matched_lang])
-        if fastlang_code == UNCERTAIN_SETS:
-            # regex match only found uncertain sets : zh, ko, ja
-            # we will skip first stage model
-            return self._second_stage(text, k, prob)
 
         k = max(1, k)
 
-        labels, probs = self.model.predict(text, k=10)
+        labels, probs = self.model.predict(text, k=max(3, k))
         lang_ids = list(map(lambda x: x.replace("__label__", ""), labels))
 
-
+        if force_second:
+            return self._second_stage(text, k, prob)
         # fasttext models usually confuse chinese, korean, japanese words
         # if the model is not so sure we pass to our model to reduce down the uncertainty
-        if lang_ids[0] in UNCERTAIN_SETS and ((probs[0] < supplement_threshold) or force_second):
+        if lang_ids[0] in UNCERTAIN_SETS and (probs[0] < supplement_threshold):
             return self._second_stage(text, k, prob)
         # predict chinese: now we want to know which chinese family it belongs
-        elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold) or force_second:
+        elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold):
             return self._second_stage(text, k, prob, filter_only_han_char=True)
-        
+
+
         valid_langs = []
         valid_lang_ids = []
 
         for lang_id, p in zip(lang_ids, probs):
-            if lang_id in fastlang_code or lang_id in REGEX_NOT_SUPPORT:
-                valid_langs.append((lang_id, p))
-                valid_lang_ids.append(lang_id)
+            valid_langs.append((lang_id, p))
+            valid_lang_ids.append(lang_id)
 
         # return list of predictions
         if prob:
-            return  valid_langs[:k] if k > 1 else valid_langs[0]
+            return valid_langs[:k] if k > 1 else valid_langs[0]
         return valid_lang_ids[:k] if k > 1 else valid_lang_ids[0]
 
     def clean_up(self, text, full_clean=False):
@@ -102,10 +96,10 @@ class LID():
             text = self.clean_up(text, full_clean=full_clean)
             if len(text) == 0:
                 return UNK_CLS
-            elif only_punctuations(text):
+            elif only_punctuations(text[:40]):
                 return UNK_CLS
-
             return self._predict_text(text, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
         else:
             batch = [ self.clean_up(i, full_clean=full_clean) for i in text ]
             return [ self._predict_text(b, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second) for b in batch ]
+

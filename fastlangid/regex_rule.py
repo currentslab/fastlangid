@@ -43,10 +43,9 @@ def find_matched_language(text):
     if text_len == 0:
         return matched_lang
 
-    matched_fast = []
     for lang, char_reg in lang2regex.items():
         if char_reg.search(text) is not None:
-            matched_char = len(list(re.finditer(char_reg, text)))
+            matched_char = len(char_reg.findall(text))
             fast_lang = lang
             if lang[:2] == 'zh':
                 fast_lang = 'zh'
