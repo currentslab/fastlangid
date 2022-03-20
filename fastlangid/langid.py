@@ -1,8 +1,6 @@
 from __future__ import division, unicode_literals
 
-import re
 import os, sys, contextlib
-import collections
 from fasttext import load_model
 import fasttext
 from fastlangid.utils import (
@@ -46,7 +44,7 @@ class LID():
             self.model = load_model(self.model_file)
 
     def _second_stage(self, text, k, prob, filter_only_han_char=False):
-        labels_, probs_ = self.sup_model.predict(text, k=k)
+        labels_, probs_ = self.sup_model.predict(text, k=10)
 
         lang_ids = list(map(lambda x: x.replace("__label__", ""), labels_))
         if filter_only_han_char:
@@ -54,8 +52,9 @@ class LID():
         else:
             results = list(zip(lang_ids, probs_))
         if prob: # validate prob is not None
-            return results
-        return [r[0] for r in results ] if k > 1 else results[0][0]
+            return results[:k]
+
+        return [r[0] for r in results[:k] ] if k > 1 else results[0][0]
 
     def _predict_text(self, text, supplement_threshold=0.93, k=1, prob=False, force_second=False):
         matched_lang = find_matched_language(text)
@@ -76,7 +75,7 @@ class LID():
         # if the model is not so sure we pass to our model to reduce down the uncertainty
         if lang_ids[0] in UNCERTAIN_SETS and ((probs[0] < supplement_threshold) or force_second):
             return self._second_stage(text, k, prob)
-        # predict chinese: now we want to know what language is it
+        # predict chinese: now we want to know which chinese family it belongs
         elif (lang_ids[0] == 'zh' and probs[0] >= supplement_threshold) or force_second:
             return self._second_stage(text, k, prob, filter_only_han_char=True)
         

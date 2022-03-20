@@ -27,7 +27,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='fastlangid',
-    version='1.1.0',
+    version='1.1.1',
     description='Language detection for news powered by fasttext',
     long_description=readme,
     long_description_content_type="text/markdown",
