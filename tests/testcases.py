@@ -1,6 +1,7 @@
 # coding=utf-8
 from __future__ import division, unicode_literals
 from fastlangid.langid import LID
+from fastlangid.utils import UNK_CLS
 from os import path
 import unittest
 
@@ -126,8 +127,18 @@ class FastLangIdTest(unittest.TestCase):
             ])
         self.assertEqual(lang_codes,  ['zh-hant', 'ru', 'de', 'en','it', 'fr', 'ja', 'pt'])
 
+    def test_unknown(self):
+        lang_code = self.langid.predict('', force_second=True)
+        self.assertEqual(lang_code, UNK_CLS)
 
+        lang_code = self.langid.predict('???｡???｡???｡???｡???｡???｡')
+        self.assertEqual(lang_code, UNK_CLS)
 
+        lang_code = self.langid.predict('???｡???｡???｡???｡???｡???｡', prob=True)
+        self.assertEqual(lang_code, (UNK_CLS, 1.0))
+
+        lang_code = self.langid.predict('???｡???｡???｡???｡???｡???｡', prob=True, k=15)
+        self.assertEqual(lang_code, [(UNK_CLS, 1.0)])
 
 def suite():
     suite = unittest.TestSuite()

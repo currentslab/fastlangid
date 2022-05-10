@@ -94,7 +94,12 @@ class LID():
         if isinstance(text, unicode):
             text = self.clean_up(text)
             if len(text) == 0 or only_punctuations(text[:50]):
-                return (UNK_CLS, 1.0) if prob else UNK_CLS
+                output = UNK_CLS
+                if prob:
+                    output = (UNK_CLS, 1.0)
+                if k > 1:
+                    output = [output]
+                return output
             return self._predict_text(text, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
         else:
             batch = [ self.clean_up(i, full_clean=full_clean) for i in text ]
