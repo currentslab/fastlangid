@@ -93,10 +93,8 @@ class LID():
     def predict(self, text, full_clean=False, supplement_threshold=0.9, k=1, prob=False, force_second=False ):
         if isinstance(text, unicode):
             text = self.clean_up(text)
-            if len(text) == 0:
-                return UNK_CLS
-            elif only_punctuations(text[:50]):
-                return UNK_CLS
+            if len(text) == 0 or only_punctuations(text[:50]):
+                return (UNK_CLS, 1.0) if prob else UNK_CLS
             return self._predict_text(text, supplement_threshold=supplement_threshold, k=k, prob=prob, force_second=force_second)
         else:
             batch = [ self.clean_up(i, full_clean=full_clean) for i in text ]
