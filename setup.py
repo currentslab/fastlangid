@@ -12,7 +12,7 @@ limitations under the License.
 Authors:
     Ray : ray@currentsapi.services
 '''
-from setuptools import setup, Extension
+from setuptools import setup
 
 try:
     from setuptools import setup
@@ -27,7 +27,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='fastlangid',
-    version='1.0.9',
+    version='1.0.10',
     description='Language detection for news powered by fasttext',
     long_description=readme,
     long_description_content_type="text/markdown",
