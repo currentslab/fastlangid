@@ -86,6 +86,8 @@ class LID():
         return valid_lang_ids[:k] if k > 1 else valid_lang_ids[0]
 
     def clean_up(self, text, full_clean=False):
+        if '\n' in text: # cleanup
+            text = text.replace('\n', ' ')
         if full_clean:
             text = clean_text(text)
         return text
